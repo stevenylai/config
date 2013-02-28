@@ -1,0 +1,29 @@
+media-video/vlc aac dts flac fontconfig matroska mp3 mpeg run-as-root x264
+app-emulation/qemu usbredir
+app-emulation/wine capi cups elibc_glibc fontconfig gphoto2 gsm gstreamer lcms ldap mp3 ncurses nls openal osmesa pulseaudio scanner selinux udisks xcomposite xinerama xml
+app-text/texlive extra publishers science
+kde-base/krdc rdesktop vnc
+net-misc/rdesktop ao
+kde-base/kopete latex oscar qq skype yahoo
+www-plugins/gnash egl fbcon gconf gstreamer nsplugin openvg ssh vaapi
+dev-lang/php gd
+#required by x11-drivers/xf86-video-vmware-12.0.2-r1, required by x11-base/xorg-drivers-1.13[video_cards_vmware], required by x11-base/xorg-server-1.13.1[xorg], required by x11-drivers/xf86-video-glint-1.2.8
+>=x11-libs/libdrm-2.4.40 libkms
+#required by x11-drivers/xf86-video-vmware-12.0.2-r1, required by x11-base/xorg-drivers-1.13[video_cards_vmware], required by x11-base/xorg-server-1.13.1[xorg], required by x11-drivers/xf86-video-glint-1.2.8
+>=media-libs/mesa-9.0.1 xa
+#required by sys-auth/polkit-0.110, required by sys-power/upower-0.9.18, required by kde-base/kdelibs-4.9.3[upower], required by kde-base/kdesu-4.9.3[handbook], required by kde-base/khelpcenter-4.9.3
+>=sys-auth/consolekit-0.4.5_p20120320-r1 policykit
+#required by sys-auth/polkit-0.110[pam], required by sys-power/upower-0.9.18, required by kde-base/kdelibs-4.9.3[upower], required by kde-base/kdesu-4.9.3[handbook], required by kde-base/khelpcenter-4.9.3
+=sys-auth/pambase-20101024-r2 consolekit
+#required by media-libs/phonon-gstreamer-4.6.2-r1, required by media-libs/phonon-4.6.0-r1[gstreamer], required by kde-base/kdelibs-4.9.3, required by kde-base/kdesu-4.9.3[handbook], required by kde-base/khelpcenter-4.9.3
+=media-plugins/gst-plugins-meta-0.10-r7 vorbis
+#required by dev-vcs/git-1.7.12.4[subversion,perl], required by sys-devel/gettext-0.18.1.1-r3[git], required by net-libs/gnutls-2.12.20[nls], required by net-libs/glib-networking-2.32.3[ssl], required by net-libs/libsoup-2.38.1, required by media-plugins/gst-plugins-soup-0.10.30, required by media-libs/phonon-gstreamer-4.6.2-r1[network], required by media-libs/phonon-4.6.0-r1[gstreamer], required by kde-base/kdelibs-4.9.3, required by kde-base/kdesu-4.9.3[handbook], required by kde-base/khelpcenter-4.9.3
+>=dev-vcs/subversion-1.7.7 -dso perl
+#required by dev-db/virtuoso-server-6.1.6, required by dev-libs/soprano-2.8.0[virtuoso], required by kde-base/nepomuk-core-4.9.3, required by kde-base/kdelibs-4.9.3[semantic-desktop], required by kde-base/rocs-4.9.3, required by kde-base/kdeedu-meta-4.9.3, required by kde-base/kde-meta-4.9.3, required by kde-meta (argument)
+>=sys-libs/zlib-1.2.7 minizip
+#required by www-client/firefox-17.0.2, required by firefox (argument)
+=dev-lang/python-2.7.3-r2 sqlite
+#required by app-text/texlive-2011[truetype], required by texlive (argument)
+>=media-libs/freetype-1.4_pre20080316-r2:1 kpathsea
+#required by kde-base/pykde4-4.9.5, required by kde-base/plasma-workspace-4.9.5[python], required by kde-base/kdebase-meta-4.9.5, required by kde-base/kde-meta-4.9.5, required by @selected, required by @world (argument)
+>=dev-python/PyQt4-4.9.6-r2 script
