@@ -1,5 +1,5 @@
 export SENSOR_PLATFORM=micaz
-export COMPORTNO=`expr \`ls /dev/ttyS* 2>&1|sort|head -n1|sed 's/^[^0-9]*//g'\` + 1`
+export COMPORTNO=`expr \`find /dev/ttyS* 2>&1|sort|head -n1|sed 's/^[^0-9]*//g'\` + 1`
 
 PATH_BASIC="${PATH}:/opt/tinyos-1.x/tools/java/jni"
 CLASSPATH_BASIC="${CLASSPATH}"
