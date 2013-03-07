@@ -4,6 +4,7 @@ app-text/texlive extra publishers science
 dev-lang/php gd mysqli
 kde-base/kopete latex oscar qq skype yahoo
 kde-base/krdc rdesktop vnc
+media-gfx/xsane gimp ocr
 media-video/vlc aac dts flac fontconfig matroska mp3 mpeg run-as-root x264
 net-dialup/ppp dhcp
 net-misc/rdesktop ao
