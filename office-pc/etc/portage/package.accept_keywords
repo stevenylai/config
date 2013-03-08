@@ -2,6 +2,7 @@ x11-drivers/nvidia-drivers ~amd64
 sys-boot/grub ~amd64
 www-client/firefox ~amd64
 dev-java/icedtea ~amd64
+sci-mathematics/yafu ~amd64
 #required by sys-boot/grub-2.00-r1[grub_platforms_efi-64,-grub_platforms_efi-32], required by grub (argument)
 =sys-boot/efibootmgr-0.5.4 ~amd64
 #required by ibus-pinyin (argument)
