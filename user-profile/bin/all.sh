@@ -35,4 +35,7 @@ if [ -f "${HOME}/bin/tinyos.sh" ] ; then
 	export SENSOR_PLATFORM=micaz
 	source "${HOME}/bin/tinyos.sh"
 fi
+have () {
+	which $@ > /dev/null 2>&1
+}
 alias quotes="sed -e 's/^/\"/g' -e 's/$/\"/g'"
