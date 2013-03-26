@@ -1,6 +1,6 @@
 app-emulation/qemu usbredir
 app-emulation/wine capi elibc_glibc fontconfig gphoto2 gsm openal osmesa pulseaudio scanner selinux
-app-text/texlive extra publishers science
+app-text/texlive extra graphics pdfannotextractor pstricks publishers science
 dev-lang/php gd mysqli
 dev-lang/python sqlite
 kde-base/kopete latex oscar qq skype yahoo
