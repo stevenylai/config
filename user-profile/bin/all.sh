@@ -31,6 +31,9 @@ fi
 if [ -f "${HOME}/bin/django.sh" ] ; then
 	source "${HOME}/bin/django.sh"
 fi
+if [ -f "${HOME}/bin/docbook.sh" ] ; then
+	source "${HOME}/bin/docbook.sh"
+fi
 if [ -f "${HOME}/bin/tinyos.sh" ] ; then
 	export SENSOR_PLATFORM=micaz
 	source "${HOME}/bin/tinyos.sh"

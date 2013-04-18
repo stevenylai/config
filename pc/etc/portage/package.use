@@ -33,8 +33,8 @@ www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 >=media-libs/lcms-1.19:0 static-libs
 #required by media-gfx/splashutils-1.5.4.4-r1[truetype], required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
 =media-libs/freetype-2.4.11 static-libs
-#required by media-gfx/splashutils-1.5.4.4-r1[png], required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
-=media-libs/libpng-1.5.13-r1 static-libs
+# required by media-gfx/splashutils-1.5.4.4-r1[png], required by media-gfx/bootsplash-themes-20060913
+=media-libs/libpng-1.5.15 static-libs
 #required by media-gfx/splashutils-1.5.4.4-r1[truetype], required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
 >=app-arch/bzip2-1.0.6-r3 static-libs
 #required by media-gfx/splashutils-1.5.4.4-r1, required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
