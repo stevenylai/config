@@ -1,5 +1,5 @@
 if [ -d /opt/buildroot-gcc342/bin ]; then
-	export PATH=${PATH}:/opt/buildroot-gcc342/bin
+	export PATH=${PATH}:/opt/buildroot/usr/bin
 fi
 if [ -d /opt/sdcc/bin ]; then
 	export PATH=${PATH}:/opt/sdcc/bin
