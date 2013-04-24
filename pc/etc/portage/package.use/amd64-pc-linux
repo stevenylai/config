@@ -3,6 +3,7 @@ app-emulation/wine capi elibc_glibc fontconfig gphoto2 gsm openal osmesa pulseau
 app-text/texlive extra graphics pdfannotextractor pstricks publishers science
 dev-lang/php gd mysqli
 dev-lang/python sqlite
+dev-qt/qtwebkit gstreamer icu
 kde-base/kopete jingle latex oscar qq skype yahoo
 kde-base/krdc rdesktop vnc
 media-gfx/xsane gimp ocr
@@ -37,3 +38,5 @@ www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 >=app-arch/bzip2-1.0.6-r3 static-libs
 #required by media-gfx/splashutils-1.5.4.4-r1, required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
 >=virtual/jpeg-0 static-libs
+# required by www-client/chromium-26.0.1410.43
+>=dev-libs/libxml2-2.9.0-r2 icu
