@@ -1,3 +1,4 @@
+dev-ruby/rails ~amd64
 sys-boot/grub ~amd64
 www-client/firefox ~amd64
 sci-mathematics/yafu ~amd64
@@ -47,3 +48,209 @@ sci-mathematics/yafu ~amd64
 =dev-haskell/openglraw-1.3.0.0 ~amd64
 #required by dev-haskell/cabal-install-1.16.0.2, required by dev-haskell/haskell-platform-2012.4.0.0, required by haskell-platform (argument)
 =dev-haskell/cabal-1.16.0.3 ~amd64
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/erubis-2.7.0 ~amd64
+# required by dev-ruby/erubis-2.7.0[ruby_targets_ruby19]
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/abstract-1.0.0-r1 ~amd64
+# required by dev-ruby/actionmailer-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/actionpack-3.2.13 ~amd64
+# required by dev-ruby/activeresource-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/activemodel-3.2.13 ~amd64
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/jquery-rails-2.2.1 ~amd64
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/builder-3.0.4 ~amd64
+# required by dev-ruby/activerecord-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/arel-3.0.2-r1 ~amd64
+# required by dev-ruby/actionmailer-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/mail-2.5.3 ~amd64
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/activerecord-3.2.13 ~amd64
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/journey-1.0.4 ~amd64
+# required by dev-ruby/coffee-script-2.2.0[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/coffee-script-source-1.6.1 ~amd64
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/rack-cache-1.2 ~amd64
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/sass-rails-3.2.6 ~amd64
+# required by dev-ruby/sprockets-2.2.2[ruby_targets_ruby19]
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/hike-1.2.2 ~amd64
+# required by dev-ruby/activerecord-3.2.13[ruby_targets_ruby18,mysql]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/mysql2-0.3.11 ~amd64
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/i18n-0.6.4 ~amd64
+# required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/sass-3.2.7 ~amd64
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/thor-0.15.2 ~amd64
+# required by dev-ruby/activeresource-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/activesupport-3.2.13 ~amd64
+# required by dev-ruby/mail-2.5.3[ruby_targets_ruby18]
+# required by dev-ruby/actionmailer-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/treetop-1.4.10-r1 ~amd64
+# required by dev-ruby/listen-0.7.3[ruby_targets_ruby18]
+# required by dev-ruby/sass-3.2.7[ruby_targets_ruby19]
+# required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/rb-inotify-0.9.0 ~amd64
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/sprockets-2.2.2 ~amd64
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/coffee-rails-3.2.2 ~amd64
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/activeresource-3.2.13 ~amd64
+# required by dev-ruby/sass-3.2.7[ruby_targets_ruby19]
+# required by dev-ruby/sass-rails-3.2.6[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/listen-0.7.3 ~amd64
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/coffee-script-2.2.0 ~amd64
+# required by dev-ruby/treetop-1.4.10-r1[ruby_targets_ruby19]
+# required by dev-ruby/mail-2.5.3[ruby_targets_ruby18]
+# required by dev-ruby/actionmailer-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/polyglot-0.3.3 ~amd64
+# required by dev-ruby/sprockets-2.2.2[ruby_targets_ruby19]
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/multi_json-1.5.0 ~amd64
+# required by dev-ruby/uglifier-1.3.0[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/execjs-1.4.0 ~amd64
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/railties-3.2.13 ~amd64
+# required by dev-ruby/execjs-1.4.0
+# required by dev-ruby/uglifier-1.3.0[ruby_targets_ruby19]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=net-libs/nodejs-0.10.5 ~amd64
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/uglifier-1.3.0 ~amd64
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby19]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/actionmailer-3.2.13 ~amd64
+# required by dev-ruby/actionpack-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby19]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/rack-test-0.6.2 ~amd64
+# required by dev-ruby/activemodel-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/activerecord-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/bcrypt-ruby-3.0.1 ~amd64
+# required by dev-ruby/railties-3.2.13[ruby_targets_ruby18]
+# required by dev-ruby/coffee-rails-3.2.2[ruby_targets_ruby18]
+# required by dev-ruby/rails-3.2.13[ruby_targets_ruby18,asset-pipeline]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/rack-ssl-1.3.3 ~amd64
