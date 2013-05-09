@@ -1,0 +1,5 @@
+cross-mipsel-softfloat-linux-uclibc/binutils cross-mipsel-softfloat-linux-uclibc/binutils.conf
+cross-mipsel-softfloat-linux-uclibc/gcc cross-mipsel-softfloat-linux-uclibc/gcc.conf
+cross-mipsel-softfloat-linux-uclibc/linux-headers cross-mipsel-softfloat-linux-uclibc/linux-headers.conf
+cross-mipsel-softfloat-linux-uclibc/uclibc cross-mipsel-softfloat-linux-uclibc/uclibc.conf
+cross-mipsel-softfloat-linux-uclibc/gdb cross-mipsel-softfloat-linux-uclibc/gdb.conf

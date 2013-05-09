@@ -1,0 +1,5 @@
+cross-mipsel-softfloat-linux-uclibc/binutils mips ~mips -amd64 -~amd64
+cross-mipsel-softfloat-linux-uclibc/gcc mips ~mips -amd64 -~amd64
+cross-mipsel-softfloat-linux-uclibc/linux-headers mips ~mips -amd64 -~amd64
+cross-mipsel-softfloat-linux-uclibc/uclibc mips ~mips -amd64 -~amd64
+cross-mipsel-softfloat-linux-uclibc/gdb mips ~mips -amd64 -~amd64
