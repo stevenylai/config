@@ -14,6 +14,7 @@ net-dialup/ppp dhcp
 net-misc/rdesktop ao
 net-print/cups avahi
 net-print/hplip fax scanner snmp
+sys-fs/squashfs-tools lzma
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 #required by x11-drivers/xf86-video-vmware-12.0.2-r1, required by x11-base/xorg-drivers-1.13[video_cards_vmware], required by x11-base/xorg-server-1.13.1[xorg], required by x11-drivers/xf86-video-glint-1.2.8
 >=x11-libs/libdrm-2.4.40 libkms

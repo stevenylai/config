@@ -1,5 +1,6 @@
 dev-ruby/rails ~amd64
 sys-boot/grub ~amd64
+sys-fs/squashfs-tools ~amd64
 www-client/firefox ~amd64
 sci-mathematics/yafu ~amd64
 #required by sys-boot/grub-2.00-r1[grub_platforms_efi-64,-grub_platforms_efi-32], required by grub (argument)
