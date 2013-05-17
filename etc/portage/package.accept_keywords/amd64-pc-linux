@@ -1,3 +1,4 @@
+app-arch/lzma ~amd64
 dev-ruby/rails ~amd64
 sys-boot/grub ~amd64
 sys-fs/squashfs-tools ~amd64
