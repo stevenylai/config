@@ -1,0 +1,5 @@
+cross-mipsel-gentoo-linux-gnu/binutils mips ~mips -amd64 -~amd64
+cross-mipsel-gentoo-linux-gnu/gcc mips ~mips -amd64 -~amd64
+cross-mipsel-gentoo-linux-gnu/linux-headers mips ~mips -amd64 -~amd64
+cross-mipsel-gentoo-linux-gnu/glibc mips ~mips -amd64 -~amd64
+cross-mipsel-gentoo-linux-gnu/gdb mips ~mips -amd64 -~amd64
