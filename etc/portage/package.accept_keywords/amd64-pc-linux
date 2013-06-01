@@ -256,3 +256,7 @@ sci-mathematics/yafu ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-ruby/rack-ssl-1.3.3 ~amd64
+# required by www-client/chromium-27.0.1453.93
+# required by @selected
+# required by @world (argument)
+=dev-libs/nspr-4.9.6 ~amd64
