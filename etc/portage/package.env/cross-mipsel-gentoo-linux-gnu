@@ -1,5 +1,0 @@
-cross-mipsel-gentoo-linux-gnu/binutils cross-mipsel-gentoo-linux-gnu/binutils.conf
-cross-mipsel-gentoo-linux-gnu/gcc cross-mipsel-gentoo-linux-gnu/gcc.conf
-cross-mipsel-gentoo-linux-gnu/linux-headers cross-mipsel-gentoo-linux-gnu/linux-headers.conf
-cross-mipsel-gentoo-linux-gnu/glibc cross-mipsel-gentoo-linux-gnu/glibc.conf
-cross-mipsel-gentoo-linux-gnu/gdb cross-mipsel-gentoo-linux-gnu/gdb.conf

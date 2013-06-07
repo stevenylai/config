@@ -1,5 +1,0 @@
-cross-mipsel-unknown-linux-uclibc/binutils cross-mipsel-unknown-linux-uclibc/binutils.conf
-cross-mipsel-unknown-linux-uclibc/gcc cross-mipsel-unknown-linux-uclibc/gcc.conf
-cross-mipsel-unknown-linux-uclibc/linux-headers cross-mipsel-unknown-linux-uclibc/linux-headers.conf
-cross-mipsel-unknown-linux-uclibc/uclibc cross-mipsel-unknown-linux-uclibc/uclibc.conf
-cross-mipsel-unknown-linux-uclibc/gdb cross-mipsel-unknown-linux-uclibc/gdb.conf
