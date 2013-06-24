@@ -8,7 +8,11 @@ PYTHONPATH_BASIC="${PYTHONPATH}"
 # Functions
 tinyos_settings () {
     export TOSDIR="${TOSROOT}/tos"
-    export CLASSPATH="${CLASSPATH_BASIC};."
+    if [ -n "`uname|grep -i cygwin`" ]; then
+    	export CLASSPATH="${CLASSPATH_BASIC};."
+    else
+    	export CLASSPATH="${CLASSPATH_BASIC}:."
+    fi
     if [ -n "`uname|grep -i cygwin`" ]; then
 	export PATH="`find /cygdrive/c/Program\ Files -maxdepth 3 -name 'jdk*' -type d 2>/dev/null|sort|tail -n1|sed -e 's/$/\/bin/g'`:${PATH_BASIC}"
     fi

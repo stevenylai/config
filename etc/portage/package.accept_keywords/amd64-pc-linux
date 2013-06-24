@@ -1,4 +1,6 @@
 app-arch/lzma ~amd64
+dev-embedded/nesc ~amd64
+dev-embedded/tinyos-tools ~amd64
 dev-ruby/rails ~amd64
 sys-boot/grub ~amd64
 sys-fs/squashfs-tools ~amd64
