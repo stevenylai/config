@@ -1,0 +1,4 @@
+cross-msp430/msp430-binutils -selinux -multilib
+cross-msp430/msp430mcu -selinux -multilib
+cross-msp430/msp430-libc -selinux -multilib
+cross-msp430/msp430-gcc -fortran -openmp -selinux -boundschecking -d -gtk -gcj -libffi -mudflap -objc -objc++ -objc-gc -multilib

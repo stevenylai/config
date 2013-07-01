@@ -1,0 +1,5 @@
+cross-msp430/msp430-binutils * ~* -amd64 -~amd64
+cross-msp430/msp430-gcc * ~* -amd64 -~amd64
+cross-msp430/msp430mcu * ~* -amd64 -~amd64
+cross-msp430/msp430-libc * ~* -amd64 -~amd64
+cross-msp430/msp430-gdb * ~* -amd64 -~amd64

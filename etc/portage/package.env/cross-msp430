@@ -1,0 +1,5 @@
+cross-msp430/msp430-binutils cross-msp430/msp430-binutils.conf
+cross-msp430/msp430-gcc cross-msp430/msp430-gcc.conf
+cross-msp430/msp430mcu cross-msp430/msp430mcu.conf
+cross-msp430/msp430-libc cross-msp430/msp430-libc.conf
+cross-msp430/msp430-gdb cross-msp430/msp430-gdb.conf
