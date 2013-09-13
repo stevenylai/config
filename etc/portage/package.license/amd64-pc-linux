@@ -2,4 +2,6 @@
 >=www-plugins/adobe-flash-11.2.202.261 AdobeFlash-11.x
 #required by skype (argument)
 >=net-im/skype-4.1.0.20 skype-4.0.0.7-copyright
-=www-plugins/google-talkplugin-4.4.2.0 Google-TOS
+>=www-plugins/google-talkplugin-4.5.3.0 Google-TOS
+# required by broadcom-sta (argument)
+>=net-wireless/broadcom-sta-6.30.223.30-r2 Broadcom
