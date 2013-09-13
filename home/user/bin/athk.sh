@@ -126,21 +126,22 @@ release()
 }
 pass ()
 {
-	detect_python3
-	if [ -z "${PYTHON3_EXE}" ]; then
+	PYTHON3_EXE=/usr/bin/python3
+	if [ ! -x "${PYTHON3_EXE}" ]; then
 		return
 	fi
 	cp --preserve=timestamps "${HOME}/bin/xlsPass.py" /tmp
-	"${PYTHON3_EXE}" "`cygpath -w /tmp/xlsPass.py`" "$@"
+	#"${PYTHON3_EXE}" "`cygpath -w /tmp/xlsPass.py`" "$@"
+	"${PYTHON3_EXE}" "/tmp/xlsPass.py" "$@"
 	rm -f /tmp/xlsPass.py
 }
 rm_db ()
 {
-	detect_python3
-	if [ -z "${PYTHON3_EXE}" ]; then
+	PYTHON3_EXE=/usr/bin/python3
+	if [ ! -x "${PYTHON3_EXE}" ]; then
 		return
 	fi
-	"${PYTHON3_EXE}" "`cygpath -w ${HOME}/bin/gmp.py`"
+	"${PYTHON3_EXE}" "${HOME}/bin/gmp.py"
 }
 nuspace ()
 {
