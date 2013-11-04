@@ -27,6 +27,9 @@ sci-mathematics/yafu ~amd64
 # required by @selected
 # required by @world (argument)
 =app-accessibility/speech-dispatcher-0.8-r2 ~amd64
+# required by app-editors/emacs-24.3-r2[X,png]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=media-libs/libpng-1.6.6 ~amd64
 #required by dev-haskell/haskell-platform-2012.4.0.0, required by haskell-platform (argument)
 =dev-haskell/cabal-install-1.16.0.2 ~amd64
 #required by dev-haskell/haddock-2.10.0-r2, required by dev-haskell/haskell-platform-2012.4.0.0, required by haskell-platform (argument)
