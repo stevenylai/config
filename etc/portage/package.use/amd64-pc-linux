@@ -14,6 +14,7 @@ media-video/vlc fontconfig matroska run-as-root
 net-analyzer/wireshark -gtk2 -gtk3
 net-dialup/ppp dhcp
 net-fs/cifs-utils upcall ads
+net-fs/samba winbind -client
 net-misc/rdesktop ao
 net-print/cups avahi
 net-print/hplip fax scanner snmp
@@ -69,5 +70,3 @@ www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 # required by @selected
 # required by @world (argument)
 =media-video/ffmpeg-1.0.7 opus
-# required by net-fs/cifs-utils-6.1-r1[acl]
-=net-fs/samba-3.6.19 winbind
