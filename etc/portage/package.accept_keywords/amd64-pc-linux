@@ -19,6 +19,10 @@ sci-mathematics/yafu ~amd64
 # required by net-print/hplip-3.13.8[fax,scanner,-minimal]
 # required by hplip (argument)
 =dev-python/reportlab-2.6 ~amd64
+# required by www-client/chromium-32.0.1700.6
+# required by @selected
+# required by @world (argument)
+=dev-libs/protobuf-2.5.0 ~amd64
 # required by www-client/chromium-30.0.1599.15
 # required by @selected
 # required by @world (argument)
