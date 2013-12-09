@@ -10,6 +10,7 @@ www-client/chromium ~amd64
 www-client/firefox ~amd64
 www-plugins/google-talkplugin ~amd64
 sci-mathematics/yafu ~amd64
+x11-drivers/ati-drivers ~amd64
 #required by ibus-pinyin (argument)
 =app-i18n/ibus-pinyin-1.4.0 ~amd64
 #required by skype (argument)
