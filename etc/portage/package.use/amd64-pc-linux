@@ -21,6 +21,10 @@ net-print/hplip fax scanner snmp
 sys-apps/usbredir static-libs
 sys-fs/squashfs-tools lzma
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
+# required by app-office/libreoffice-4.1.2.3
+# required by @selected
+# required by @world (argument)
+=media-libs/harfbuzz-0.9.23 icu
 #required by x11-drivers/xf86-video-vmware-12.0.2-r1, required by x11-base/xorg-drivers-1.13[video_cards_vmware], required by x11-base/xorg-server-1.13.1[xorg], required by x11-drivers/xf86-video-glint-1.2.8
 >=x11-libs/libdrm-2.4.40 libkms
 # required by app-emulation/wine-1.6[abi_x86_64,osmesa]
