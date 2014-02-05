@@ -20,6 +20,7 @@ net-print/cups avahi
 net-print/hplip fax scanner snmp
 sys-apps/usbredir static-libs
 sys-fs/squashfs-tools lzma
+www-client/chromium -tcmalloc
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 # required by app-office/libreoffice-4.1.2.3
 # required by @selected
@@ -74,3 +75,7 @@ www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 # required by @selected
 # required by @world (argument)
 =media-video/ffmpeg-1.0.7 opus
+# required by app-arch/p7zip-9.20.1-r4[kde,wxwidgets]
+# required by sys-boot/unetbootin-585
+# required by unetbootin (argument)
+=x11-libs/wxGTK-2.8.12.1 -odbc
