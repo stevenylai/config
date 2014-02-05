@@ -1,4 +1,5 @@
 export SENSOR_PLATFORM=micaz
+export SF_PORT=9002
 export COMPORTNO=`expr \`find /dev/ttyS* 2>&1|sort|head -n1|sed 's/^[^0-9]*//g'\` + 1`
 
 PATH_BASIC="${PATH}:/opt/tinyos-1.x/tools/java/jni"
@@ -58,7 +59,16 @@ t2 () {
 }
 
 
-# SF (for T1)
+# SF
+sf_running() {
+    net_stat_all="`netstat -a`"
+
+    if [ -n "`echo ${net_stat_all}|grep :${SF_PORT}|grep LISTENING`" ]; then
+	return 0
+    else
+	return 1
+    fi
+}
 sf () {
     baudrate=${SENSOR_PLATFORM}
     if [ $# -gt 0 ]; then
@@ -74,3 +84,23 @@ sf1 () {
     fi
     java net.tinyos.sf.SerialForwarder -comm serial@COM${COM}:${baudrate}
 }
+demo() {
+    if [ ! "${TOSROOT}" = "/opt/tinyos-2.x" ]; then
+	echo "Setting environment to tinyos-2.x"
+	t2
+    fi
+
+    if ! sf_running; then
+	echo "SF not detected. Starting it now"
+	sf &
+    fi
+    while ! sf_running; do
+	echo "Waiting for SF to start up"
+	sleep 1
+    done
+    log_file="`date +%Y%m%d-%H%M%S`.log"
+    echo "Logging to ${log_file}"
+    cd ${HOME}/work/src/its_demo/embedded/tools/java/its_centralized && java Packet > "${log_file}"
+
+}
+
