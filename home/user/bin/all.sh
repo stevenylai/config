@@ -38,6 +38,9 @@ if [ -f "${HOME}/bin/tinyos.sh" ] ; then
 	export SENSOR_PLATFORM=micaz
 	source "${HOME}/bin/tinyos.sh"
 fi
+if [ -f "${HOME}/bin/its.sh" ] ; then
+	source "${HOME}/bin/its.sh"
+fi
 have () {
 	which $@ > /dev/null 2>&1
 }
