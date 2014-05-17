@@ -1,3 +1,5 @@
+app-admin/ec2-ami-tools ~amd64
+app-admin/ec2-api-tools ~amd64
 app-arch/lzma ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64

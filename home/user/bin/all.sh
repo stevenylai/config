@@ -28,6 +28,9 @@ fi
 if [ -f "${HOME}/bin/liricco.sh" ] ; then
 	source "${HOME}/bin/liricco.sh"
 fi
+if [ -f "${HOME}/bin/aws.sh" ] ; then
+	source "${HOME}/bin/aws.sh"
+fi
 if [ -f "${HOME}/bin/django.sh" ] ; then
 	source "${HOME}/bin/django.sh"
 fi
