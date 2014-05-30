@@ -4,7 +4,7 @@ fi
 if [ -d /opt/sdcc/bin ]; then
 	export PATH=${PATH}:/opt/sdcc/bin
 fi
-if [ -d ${HOME}/work/src ]; then
+if [ -d "${HOME}/work/src" ]; then
 	export PYTHONPATH=${HOME}/work/src
 fi
 li_env() {

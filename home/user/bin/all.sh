@@ -28,6 +28,12 @@ fi
 if [ -f "${HOME}/bin/liricco.sh" ] ; then
 	source "${HOME}/bin/liricco.sh"
 fi
+if [ -f "${HOME}/bin/customize.sh" ] ; then
+	source "${HOME}/bin/customize.sh"
+fi
+if [ -f "${HOME}/bin/aws.sh" ] ; then
+	source "${HOME}/bin/aws.sh"
+fi
 if [ -f "${HOME}/bin/django.sh" ] ; then
 	source "${HOME}/bin/django.sh"
 fi
@@ -37,6 +43,9 @@ fi
 if [ -f "${HOME}/bin/tinyos.sh" ] ; then
 	export SENSOR_PLATFORM=micaz
 	source "${HOME}/bin/tinyos.sh"
+fi
+if [ -f "${HOME}/bin/its.sh" ] ; then
+	source "${HOME}/bin/its.sh"
 fi
 have () {
 	which $@ > /dev/null 2>&1
