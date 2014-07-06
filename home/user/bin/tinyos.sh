@@ -98,9 +98,7 @@ demo() {
 	echo "Waiting for SF to start up"
 	sleep 1
     done
-    log_file="`date +%Y%m%d-%H%M%S`.log"
-    echo "Logging to ${log_file}"
-    cd ${HOME}/work/src/its_demo/embedded/tools/java/its_centralized && java Packet > "${log_file}"
+    cd ${HOME}/work/src/its_demo/embedded/tools/java/its_centralized && java Packet
 
 }
 
