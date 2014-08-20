@@ -1,4 +1,0 @@
-cross-mipsel-unknown-linux-uclibc/binutils -selinux -multilib
-cross-mipsel-unknown-linux-uclibc/linux-headers -selinux -multilib
-cross-mipsel-unknown-linux-uclibc/uclibc -selinux -multilib
-cross-mipsel-unknown-linux-uclibc/gcc -selinux -boundschecking -d -gtk -gcj -libffi -mudflap -objc -objc++ -objc-gc -multilib
