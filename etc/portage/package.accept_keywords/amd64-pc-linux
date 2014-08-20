@@ -3,6 +3,7 @@ app-admin/ec2-api-tools ~amd64
 app-arch/lzma ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64
+dev-python/pymysql ~amd64
 dev-python/ws4py ~amd64
 net-im/skype ~amd64
 net-misc/r8168 ~amd64
@@ -35,6 +36,14 @@ x11-drivers/ati-drivers ~amd64
 =dev-haskell/cabal-install-1.16.0.2 ~amd64
 #required by haskell-platform (argument)
 =dev-haskell/haskell-platform-2012.4.0.0 ~amd64
+# required by www-servers/thin-1.6.2[-test,ruby_targets_ruby20]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/daemons-1.1.9-r1 ~amd64
+# required by www-servers/thin-1.6.2[ruby_targets_ruby19,-test]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/eventmachine-1.0.3-r1 ~amd64
 # required by dev-ruby/actionpack-4.1.1[ruby_targets_ruby19]
 # required by dev-ruby/actionmailer-4.1.1[ruby_targets_ruby19]
 # required by dev-ruby/rails-4.1.1[ruby_targets_ruby20]
