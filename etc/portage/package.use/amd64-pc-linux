@@ -3,6 +3,7 @@ app-emulation/wine capi elibc_glibc fontconfig gphoto2 gsm openal osmesa pulseau
 app-text/texlive extra graphics pdfannotextractor pstricks publishers science
 dev-lang/php gd mysqli
 dev-lang/python sqlite
+#dev-python/ws4py -server
 dev-ruby/rubygems server
 dev-qt/qtwebkit gstreamer icu
 kde-base/kopete jingle latex oscar qq skype yahoo
