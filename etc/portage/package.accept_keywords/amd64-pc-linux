@@ -13,7 +13,6 @@ net-im/skype ~amd64
 net-misc/r8168 ~amd64
 net-wireless/broadcom-sta ~amd64
 sys-fs/squashfs-tools ~amd64
-www-client/chromium ~amd64
 www-client/firefox ~amd64
 www-plugins/google-talkplugin ~amd64
 sci-mathematics/yafu ~amd64

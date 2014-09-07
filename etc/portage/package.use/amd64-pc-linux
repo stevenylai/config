@@ -21,7 +21,6 @@ net-print/cups avahi
 net-print/hplip fax scanner snmp
 sys-apps/usbredir static-libs
 sys-fs/squashfs-tools lzma
-www-client/chromium -tcmalloc
 www-client/firefox gstreamer
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 # required by app-emulation/qemu-2.0.0[static-user,-static-softmmu]
@@ -32,54 +31,23 @@ www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 # required by www-client/firefox-28.0[gstreamer]
 # required by firefox (argument)
 media-plugins/gst-plugins-meta ffmpeg
+# required by virtual/jpeg-0
+# required by www-client/firefox-23.0
+# required by @selected
+# required by @world (argument)
+>=media-libs/libjpeg-turbo-1.3.0-r3 static-libs
 # required by app-office/libreoffice-4.2.5.2
 # required by @selected
 # required by @world (argument)
 media-libs/harfbuzz icu
 #required by x11-drivers/xf86-video-vmware-12.0.2-r1, required by x11-base/xorg-drivers-1.13[video_cards_vmware], required by x11-base/xorg-server-1.13.1[xorg], required by x11-drivers/xf86-video-glint-1.2.8
 >=x11-libs/libdrm-2.4.40 libkms
-# required by media-sound/pulseaudio-2.1-r1[alsa]
-# required by app-emulation/wine-1.6[abi_x86_64,pulseaudio]
-# required by app-emulation/q4wine-1.0-r3
-# required by @selected
-# required by @world (argument)
->=media-plugins/alsa-plugins-1.0.27 pulseaudio
 #required by dev-vcs/git-1.7.12.4[subversion,perl], required by sys-devel/gettext-0.18.1.1-r3[git], required by net-libs/gnutls-2.12.20[nls], required by net-libs/glib-networking-2.32.3[ssl], required by net-libs/libsoup-2.38.1, required by media-plugins/gst-plugins-soup-0.10.30, required by media-libs/phonon-gstreamer-4.6.2-r1[network], required by media-libs/phonon-4.6.0-r1[gstreamer], required by kde-base/kdelibs-4.9.3, required by kde-base/kdesu-4.9.3[handbook], required by kde-base/khelpcenter-4.9.3
 >=dev-vcs/subversion-1.7.7 -dso perl
-#required by dev-db/virtuoso-server-6.1.6, required by dev-libs/soprano-2.8.0[virtuoso], required by kde-base/nepomuk-core-4.9.3, required by kde-base/kdelibs-4.9.3[semantic-desktop], required by kde-base/rocs-4.9.3, required by kde-base/kdeedu-meta-4.9.3, required by kde-base/kde-meta-4.9.3, required by kde-meta (argument), #required by media-gfx/splashutils-1.5.4.4-r1[truetype], required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
->=sys-libs/zlib-1.2.7 minizip static-libs
+#required by dev-db/virtuoso-server-6.1.6, required by dev-libs/soprano-2.8.0[virtuoso], required by kde-base/nepomuk-core-4.9.3, required by kde-base/kdelibs-4.9.3[semantic-desktop], required by kde-base/rocs-4.9.3, required by kde-base/kdeedu-meta-4.9.3, required by kde-base/kde-meta-4.9.3, required by kde-meta (argument),
+>=sys-libs/zlib-1.2.7 minizip
 #required by kde-base/pykde4-4.9.5, required by kde-base/plasma-workspace-4.9.5[python], required by kde-base/kdebase-meta-4.9.5, required by kde-base/kde-meta-4.9.5, required by @selected, required by @world (argument)
 >=dev-python/PyQt4-4.9.6-r2 script
-# required by virtual/jpeg-0
-# required by www-client/firefox-23.0
-# required by @selected
-# required by @world (argument)
->=media-libs/libjpeg-turbo-1.3.0-r3 static-libs
-#required by media-gfx/splashutils-1.5.4.4-r1[mng], required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
->=media-libs/libmng-1.0.10-r1 static-libs
-#required by media-gfx/splashutils-1.5.4.4-r1[mng], required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
->=media-libs/lcms-1.19:0 static-libs
-#required by media-gfx/splashutils-1.5.4.4-r1[truetype], required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
-media-libs/freetype static-libs
-# required by media-gfx/splashutils-1.5.4.4-r1[png]
-# required by media-gfx/bootsplash-themes-20060913
-# required by @selected
-# required by @world (argument)
->=media-libs/libpng-1.6.6 static-libs
-#required by media-gfx/splashutils-1.5.4.4-r1[truetype], required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
->=app-arch/bzip2-1.0.6-r3 static-libs
->=sys-libs/gpm-1.20.7-r1 static-libs
-#required by media-gfx/splashutils-1.5.4.4-r1, required by media-gfx/bootsplash-themes-20060913, required by bootsplash-themes (argument)
->=virtual/jpeg-0 static-libs
-# required by www-client/chromium-26.0.1410.43
->=dev-libs/libxml2-2.9.0-r2 icu
-# required by app-emulation/qemu-user-1.0
-# required by qemu-user (argument)
-=dev-libs/glib-2.32.4-r1 static-libs
-# required by www-client/chromium-28.0.1500.89[system-ffmpeg]
-# required by @selected
-# required by @world (argument)
-=media-video/ffmpeg-1.0.7 opus
 # required by app-arch/p7zip-9.20.1-r4[wxwidgets,kde]
 # required by sys-boot/unetbootin-585
 # required by @selected
@@ -91,3 +59,9 @@ media-libs/freetype static-libs
 # required by @selected
 # required by @world (argument)
 >=dev-libs/elfutils-0.158 static-libs
+# required by media-sound/pulseaudio-2.1-r1[alsa]
+# required by app-emulation/wine-1.6[abi_x86_64,pulseaudio]
+# required by app-emulation/q4wine-1.0-r3
+# required by @selected
+# required by @world (argument)
+>=media-plugins/alsa-plugins-1.0.27 pulseaudio
