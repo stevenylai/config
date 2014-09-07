@@ -20,6 +20,21 @@ www-plugins/google-talkplugin ~amd64
 www-servers/thin ~amd64
 sci-mathematics/yafu ~amd64
 x11-drivers/ati-drivers ~amd64
+# required by www-client/firefox-32.0
+# required by @selected
+# required by @world (argument)
+=media-libs/mesa-10.2.6 ~amd64
+# required by media-libs/mesa-10.2.6
+# required by x11-libs/cairo-1.12.16[opengl]
+# required by dev-python/pygobject-3.12.2[cairo]
+# required by app-admin/system-config-printer-common-1.4.3
+# required by app-admin/system-config-printer-gnome-1.4.3-r1
+# required by kde-base/print-manager-4.12.5
+# required by kde-base/kdeutils-meta-4.12.5[cups]
+# required by kde-base/kde-meta-4.12.5
+# required by @selected
+# required by @world (argument)
+=x11-libs/libdrm-2.4.54 ~amd64
 # required by dev-libs/nss-3.16.3
 # required by www-client/firefox-31.0
 # required by @selected
