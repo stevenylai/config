@@ -9,6 +9,7 @@ dev-python/pymysql ~amd64
 dev-python/ws4py ~amd64
 dev-util/android-ndk ~amd64
 dev-util/android-sdk-update-manager ~amd64
+net-analyzer/arp-scan ~amd64
 net-im/skype ~amd64
 net-misc/r8168 ~amd64
 net-wireless/broadcom-sta ~amd64
