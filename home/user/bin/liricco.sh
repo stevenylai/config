@@ -4,8 +4,12 @@ fi
 if [ -d /opt/sdcc/bin ]; then
 	export PATH=${PATH}:/opt/sdcc/bin
 fi
+if [ -d ${HOME}/usr/bin ]; then
+	export PATH=${PATH}:${HOME}/usr/bin
+fi
 if [ -d "${HOME}/work/src" ]; then
 	export PYTHONPATH=${HOME}/work/src
+	alias zigbee="python -m pysf.test.packet.zigbee"
 fi
 li_env() {
 	if [ -n "`uname|grep -i cygwin`" ]; then
