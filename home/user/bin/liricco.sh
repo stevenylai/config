@@ -18,6 +18,7 @@ li_env() {
 }
 export CHUB_TEMP_IMG=/tftpboot/Image
 export CHUB_FINAL_IMG=/tftpboot/Kernel.bin
+export _PYTHON_VERSION="`python --version 2>&1|sed 's/Python \([^.]\+\.[^.]\+\).*/\1/g'`"
 chub_image() {
 	if [ $# -lt 1 ]; then
 		mipsel-unknown-linux-uclibc-objcopy -O binary -R .note -R .comment -S vmlinux "${CHUB_TEMP_IMG}" && /mnt/liricco/sftp_web/bin/lzma -9 -f -S .lzma "${CHUB_TEMP_IMG}" && mkimage -A mips -O linux -T kernel -C lzma -a 80000000 -e 0x8027c000 -n "Linux Kernel Image" -d "${CHUB_TEMP_IMG}.lzma" "${CHUB_FINAL_IMG}"
