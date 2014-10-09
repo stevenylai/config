@@ -25,6 +25,9 @@ www-client/firefox gstreamer
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 #required by www-client/chromium-37.0.2062.94
 dev-libs/libxml2 icu
+# required by sci-libs/scipy-0.12.1
+# required by scipy (argument)
+=dev-python/numpy-1.8.0-r1 lapack
 # required by app-emulation/qemu-2.0.0[static-user,-static-softmmu]
 # required by app-emulation/aqemu-0.8.2-r2
 # required by @selected

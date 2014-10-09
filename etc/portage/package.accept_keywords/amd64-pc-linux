@@ -14,6 +14,7 @@ net-analyzer/arp-scan ~amd64
 net-im/skype ~amd64
 net-misc/r8168 ~amd64
 net-wireless/broadcom-sta ~amd64
+sci-libs/scikits ~amd64
 sys-fs/squashfs-tools ~amd64
 www-client/firefox ~amd64
 www-plugins/google-talkplugin ~amd64
