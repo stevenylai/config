@@ -28,6 +28,12 @@ dev-libs/libxml2 icu
 # required by sci-libs/scipy-0.12.1
 # required by scipy (argument)
 =dev-python/numpy-1.8.0-r1 lapack
+# required by kde-base/ktnef-4.12.5
+# required by kde-base/kdepim-meta-4.12.5
+# required by kde-base/kde-meta-4.12.5[semantic-desktop]
+# required by @selected
+# required by @world (argument)
+=app-office/akonadi-server-1.12.1-r1 soprano
 # required by app-emulation/qemu-2.0.0[static-user,-static-softmmu]
 # required by app-emulation/aqemu-0.8.2-r2
 # required by @selected
