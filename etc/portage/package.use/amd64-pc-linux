@@ -4,7 +4,7 @@ app-office/akonadi-server soprano
 app-text/texlive extra graphics pdfannotextractor pstricks publishers science
 dev-lang/php gd mysqli
 dev-lang/python sqlite
-#dev-python/ws4py -server
+dev-python/ws4py -server
 dev-ruby/rubygems server
 dev-qt/qtwebkit gstreamer
 kde-base/kopete jingle latex oscar qq skype yahoo
@@ -24,6 +24,10 @@ sys-apps/usbredir static-libs
 sys-fs/squashfs-tools lzma
 www-client/firefox gstreamer
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
+# required by app-office/openerp-server-5.0.16
+# required by @selected
+# required by @world (argument)
+>=virtual/postgresql-9.3:9.3 server
 # required by sci-libs/scipy-0.12.1
 # required by scipy (argument)
 =dev-python/numpy-1.8.0-r1 lapack
