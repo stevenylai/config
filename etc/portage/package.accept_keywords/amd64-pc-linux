@@ -5,13 +5,16 @@ app-office/openerp-server ~amd64
 app-office/openerp-web ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64
+dev-python/alembic ~amd64
 dev-python/couchdb-python ~amd64
 dev-python/jsonschema ~amd64
 dev-python/pymysql ~amd64
+dev-python/sqlalchemy ~amd64
 dev-python/tox ~amd64
 dev-python/ws4py ~amd64
 dev-util/android-ndk ~amd64
 dev-util/android-sdk-update-manager ~amd64
+dev-util/jenkins-bin ~amd64
 net-analyzer/arp-scan ~amd64
 net-im/skype ~amd64
 net-misc/r8168 ~amd64
