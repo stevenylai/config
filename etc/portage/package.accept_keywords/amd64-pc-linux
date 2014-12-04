@@ -76,8 +76,6 @@ x11-drivers/ati-drivers ~amd64
 # required by dev-python/ws4py-0.3.4[server]
 # required by ws4py (argument)
 =dev-python/cherrypy-3.3.0 ~amd64
-#required by ibus-pinyin (argument)
-=app-i18n/ibus-pinyin-1.4.0 ~amd64
 # required by dev-python/python-evdev (argument)
 =dev-python/python-evdev-0.4.3 ~amd64
 # required by dev-haskell/haskell-platform-2012.4.0.0
