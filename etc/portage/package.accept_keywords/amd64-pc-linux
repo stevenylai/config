@@ -1,11 +1,13 @@
 app-admin/ec2-ami-tools ~amd64
 app-admin/ec2-api-tools ~amd64
 app-arch/lzma ~amd64
+app-emacs/auto-complete ~amd64
 app-office/openerp-server ~amd64
 app-office/openerp-web ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64
 dev-python/alembic ~amd64
+dev-python/astroid ~amd64
 dev-python/couchdb-python ~amd64
 dev-python/jsonschema ~amd64
 dev-python/nosexcover ~amd64
@@ -22,17 +24,13 @@ net-im/skype ~amd64
 net-misc/r8168 ~amd64
 net-wireless/broadcom-sta ~amd64
 sci-libs/scikits ~amd64
+sci-libs/scikits_learn ~amd64
 sys-fs/squashfs-tools ~amd64
 www-client/firefox ~amd64
 www-servers/tornado ~amd64
 www-plugins/google-talkplugin ~amd64
 sci-mathematics/yafu ~amd64
 x11-drivers/ati-drivers ~amd64
-# required by dev-python/pylint-1.3.1
-# required by app-vim/python-mode-0.6.18-r3
-# required by @selected
-# required by @world (argument)
-=dev-python/astroid-1.2.1 ~amd64
 # required by dev-python/tox-1.8.0
 # required by tox (argument)
 =dev-python/virtualenv-1.11.6 ~amd64
