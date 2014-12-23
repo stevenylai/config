@@ -9,10 +9,12 @@ dev-embedded/tinyos-tools ~amd64
 dev-python/alembic ~amd64
 dev-python/astroid ~amd64
 dev-python/couchdb-python ~amd64
+dev-python/cov-core ~amd64
 dev-python/jsonschema ~amd64
 dev-python/nosexcover ~amd64
 dev-python/pylint ~amd64
 dev-python/pymysql ~amd64
+dev-python/pytest-cov ~amd64
 dev-python/sqlalchemy ~amd64
 dev-python/tox ~amd64
 dev-python/ws4py ~amd64
