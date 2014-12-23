@@ -10,6 +10,8 @@ dev-python/alembic ~amd64
 dev-python/astroid ~amd64
 dev-python/couchdb-python ~amd64
 dev-python/cov-core ~amd64
+# required by scikits_learn (argument)
+dev-python/joblib ~amd64
 dev-python/jsonschema ~amd64
 dev-python/nosexcover ~amd64
 dev-python/pylint ~amd64
