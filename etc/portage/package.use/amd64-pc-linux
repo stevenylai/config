@@ -26,6 +26,11 @@ sys-apps/usbredir static-libs
 sys-fs/squashfs-tools lzma
 www-client/firefox gstreamer
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
+# required by kde-base/kdeplasma-addons-4.14.3
+# required by kde-base/kde-meta-4.14.3[-minimal]
+# required by @selected
+# required by @world (argument)
+=app-crypt/qca-2.0.3-r1 openssl
 # required by app-office/openerp-server-5.0.16
 # required by @selected
 # required by @world (argument)
