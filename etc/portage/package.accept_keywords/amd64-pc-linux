@@ -9,6 +9,7 @@ dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64
 dev-python/alembic ~amd64
 dev-python/astroid ~amd64
+dev-python/asyncio ~amd64
 dev-python/couchdb-python ~amd64
 dev-python/cov-core ~amd64
 # required by scikits_learn (argument)
