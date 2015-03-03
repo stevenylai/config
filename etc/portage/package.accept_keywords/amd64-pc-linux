@@ -54,10 +54,10 @@ x11-drivers/ati-drivers ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-python/backports-1.0 ~amd64
-# required by www-client/firefox-32.0
+# required by www-client/firefox-36.0
 # required by @selected
 # required by @world (argument)
-=media-libs/mesa-10.2.6 ~amd64
+=dev-libs/nss-3.17.4 ~amd64
 # required by media-libs/mesa-10.2.6
 # required by x11-libs/cairo-1.12.16[opengl]
 # required by dev-python/pygobject-3.12.2[cairo]
@@ -69,10 +69,6 @@ x11-drivers/ati-drivers ~amd64
 # required by @selected
 # required by @world (argument)
 =x11-libs/libdrm-2.4.54 ~amd64
-# required by www-client/firefox-34.0.5-r1
-# required by @selected
-# required by @world (argument)
-=dev-libs/nspr-4.10.7-r1 ~amd64
 # required by media-gfx/icoutils-0.31.0
 # required by app-emulation/q4wine-1.0-r3[icoutils]
 # required by @selected
