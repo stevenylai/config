@@ -1,4 +1,0 @@
-cross-mipsel-gentoo-linux-gnu/binutils -selinux -multilib
-cross-mipsel-gentoo-linux-gnu/linux-headers -selinux -multilib
-cross-mipsel-gentoo-linux-gnu/glibc -selinux -multilib
-cross-mipsel-gentoo-linux-gnu/gcc -selinux -boundschecking -d -gtk -gcj -libffi -mudflap -objc -objc++ -objc-gc -multilib
