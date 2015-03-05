@@ -12,7 +12,7 @@ dev-qt/qtwebkit gstreamer
 kde-base/kopete jingle latex oscar qq skype yahoo
 kde-base/krdc rdesktop vnc
 media-gfx/xsane gimp ocr
-media-libs/mediastreamer video
+media-libs/mediastreamer video -libav
 media-libs/mesa osmesa gbm
 media-video/vlc fontconfig matroska run-as-root
 net-analyzer/wireshark -gtk2 -gtk3
