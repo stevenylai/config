@@ -14,7 +14,7 @@ kde-base/krdc rdesktop vnc
 media-gfx/xsane gimp ocr
 media-libs/mediastreamer video -libav
 media-libs/mesa osmesa gbm
-media-video/vlc fontconfig matroska run-as-root
+media-video/vlc fontconfig matroska run-as-root -libav
 net-analyzer/wireshark -gtk2 -gtk3
 net-dialup/ppp dhcp
 net-fs/cifs-utils upcall ads
