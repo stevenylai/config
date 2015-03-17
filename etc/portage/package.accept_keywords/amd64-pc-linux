@@ -2,6 +2,7 @@ app-admin/ec2-ami-tools ~amd64
 app-admin/ec2-api-tools ~amd64
 app-arch/lzma ~amd64
 app-emacs/auto-complete ~amd64
+app-i18n/ibus-pinyin ~amd64
 app-office/openerp-server ~amd64
 app-office/openerp-web ~amd64
 dev-db/couchdb ~amd64
