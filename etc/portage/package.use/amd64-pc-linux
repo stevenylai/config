@@ -9,6 +9,7 @@ dev-python/numpy lapack
 dev-python/ws4py -server
 dev-ruby/rubygems server
 dev-qt/qtwebkit gstreamer
+kde-base/ffmpegthumbs -libav
 kde-base/kopete jingle latex oscar qq skype yahoo
 kde-base/krdc rdesktop vnc
 media-gfx/xsane gimp ocr

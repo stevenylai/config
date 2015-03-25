@@ -20,6 +20,7 @@ dev-python/nosexcover ~amd64
 dev-python/pylint ~amd64
 dev-python/pymysql ~amd64
 dev-python/pytest-cov ~amd64
+dev-python/python-evdev ~amd64
 dev-python/sphinx_rtd_theme ~amd64
 dev-python/sqlalchemy ~amd64
 dev-python/tox ~amd64
@@ -27,6 +28,11 @@ dev-python/ws4py ~amd64
 dev-util/android-ndk ~amd64
 dev-util/android-sdk-update-manager ~amd64
 dev-util/jenkins-bin ~amd64
+#required by haskell-platform (argument)
+=dev-haskell/haskell-platform-2012.4.0.0 ~amd64
+# required by dev-haskell/haskell-platform-2012.4.0.0
+# required by haskell-platform (argument)
+=dev-haskell/cabal-install-1.18.0.3 ~amd64
 # Temporary
 media-libs/mediastreamer ~amd64
 net-analyzer/arp-scan ~amd64
@@ -41,22 +47,6 @@ www-servers/tornado ~amd64
 www-plugins/google-talkplugin ~amd64
 sci-mathematics/yafu ~amd64
 x11-drivers/ati-drivers ~amd64
-# required by dev-python/tox-1.8.0
-# required by tox (argument)
-=dev-python/virtualenv-1.11.6 ~amd64
-# required by www-servers/tornado-4.0.1
-# required by @selected
-# required by @world (argument)
-=dev-python/certifi-14.05.14 ~amd64
-# required by www-servers/tornado-4.0.1[python_targets_python2_7,-python_targets_pypy]
-# required by @selected
-# required by @world (argument)
-=dev-python/backports-ssl-match-hostname-3.4.0.2 ~amd64
-# required by dev-python/backports-ssl-match-hostname-3.4.0.2
-# required by www-servers/tornado-4.0.1[python_targets_python2_7,-python_targets_pypy]
-# required by @selected
-# required by @world (argument)
-=dev-python/backports-1.0 ~amd64
 # required by www-client/firefox-36.0
 # required by @selected
 # required by @world (argument)
@@ -77,10 +67,3 @@ x11-drivers/ati-drivers ~amd64
 # required by @selected
 # required by @world (argument)
 =media-libs/libpng-1.6.15 ~amd64
-# required by dev-python/python-evdev (argument)
-=dev-python/python-evdev-0.4.3 ~amd64
-# required by dev-haskell/haskell-platform-2012.4.0.0
-# required by haskell-platform (argument)
-=dev-haskell/cabal-install-1.18.0.3 ~amd64
-#required by haskell-platform (argument)
-=dev-haskell/haskell-platform-2012.4.0.0 ~amd64
