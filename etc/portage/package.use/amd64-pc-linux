@@ -9,13 +9,12 @@ dev-python/numpy lapack
 dev-python/ws4py -server
 dev-ruby/rubygems server
 dev-qt/qtwebkit gstreamer
-kde-base/ffmpegthumbs -libav
 kde-base/kopete jingle latex oscar qq skype yahoo
 kde-base/krdc rdesktop vnc
 media-gfx/xsane gimp ocr
-media-libs/mediastreamer video -libav
+media-libs/mediastreamer video
 media-libs/mesa osmesa gbm
-media-video/vlc fontconfig matroska run-as-root -libav
+media-video/vlc fontconfig matroska run-as-root
 net-analyzer/wireshark -gtk2 -gtk3
 net-dialup/ppp dhcp
 net-fs/cifs-utils upcall ads
