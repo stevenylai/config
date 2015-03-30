@@ -73,3 +73,10 @@ media-plugins/gst-plugins-meta ffmpeg
 # required by @selected
 # required by @world (argument)
 >=media-plugins/alsa-plugins-1.0.27 pulseaudio
+# required by kde-base/ffmpegthumbs-4.14.3
+# required by kde-base/kdemultimedia-meta-4.14.3[ffmpeg]
+# required by kde-base/kde-meta-4.14.3
+# required by @selected
+# required by @world (argument)
+=media-libs/phonon-4.7.2 designer
+
