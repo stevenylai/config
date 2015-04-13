@@ -1,5 +1,5 @@
 app-emulation/qemu static-user usbredir
-app-emulation/wine capi elibc_glibc fontconfig gphoto2 gsm openal osmesa pulseaudio scanner selinux
+app-emulation/wine elibc_glibc fontconfig gphoto2 gsm openal osmesa pulseaudio scanner selinux
 app-office/akonadi-server soprano
 app-text/texlive extra graphics pdfannotextractor pstricks publishers science
 dev-lang/php gd mysqli
