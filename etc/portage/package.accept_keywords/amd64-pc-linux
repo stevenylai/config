@@ -20,6 +20,7 @@ dev-python/nosexcover ~amd64
 dev-python/pylint ~amd64
 dev-python/pymysql ~amd64
 dev-python/pytest-cov ~amd64
+dev-python/python-dateutil ~amd64
 dev-python/python-evdev ~amd64
 dev-python/sphinx_rtd_theme ~amd64
 dev-python/sqlalchemy ~amd64
