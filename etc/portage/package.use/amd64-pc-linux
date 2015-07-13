@@ -79,4 +79,8 @@ media-plugins/gst-plugins-meta ffmpeg
 # required by @selected
 # required by @world (argument)
 =media-libs/phonon-4.7.2 designer
-
+# required by dev-texlive/texlive-langczechslovak-2014
+# required by app-text/texlive-2014[-linguas_cs,linguas_sk]
+# required by @selected
+# required by @world (argument)
+>=app-text/texlive-core-2014-r4 cjk xetex
