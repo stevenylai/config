@@ -8,6 +8,7 @@ app-office/openerp-web ~amd64
 dev-db/couchdb ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64
+dev-python/aiohttp ~amd64
 dev-python/alembic ~amd64
 dev-python/astroid ~amd64
 dev-python/asyncio ~amd64
@@ -17,6 +18,7 @@ dev-python/cov-core ~amd64
 dev-python/joblib ~amd64
 dev-python/jsonschema ~amd64
 dev-python/nosexcover ~amd64
+dev-python/numpy ~amd64
 dev-python/pylint ~amd64
 dev-python/pymysql ~amd64
 dev-python/pytest-cov ~amd64

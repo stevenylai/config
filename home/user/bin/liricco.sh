@@ -7,9 +7,10 @@ fi
 if [ -d ${HOME}/usr/bin ]; then
 	export PATH=${PATH}:${HOME}/usr/bin
 fi
-if [ -d "${HOME}/work/src" ]; then
-	export PYTHONPATH=${HOME}/work/src
-	alias zigbee="python -m pysf.test.packet.zigbee"
+if [ -d "${HOME}/work/src/pyhub_couchdb" ]; then
+	export PYTHONPATH=${HOME}/work/src/pyhub_couchdb
+elif [ -d "${HOME}/work/src/pyhub" ]; then
+	export PYTHONPATH=${HOME}/work/src/pyhub
 fi
 li_env() {
 	if [ -n "`uname|grep -i cygwin`" ]; then
