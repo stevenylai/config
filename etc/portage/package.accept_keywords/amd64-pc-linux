@@ -70,3 +70,28 @@ x11-drivers/ati-drivers ~amd64
 # required by @selected
 # required by @world (argument)
 =media-libs/libpng-1.6.15 ~amd64
+# required by dev-python/jsonschema-2.5.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/functools32-3.2.3 ~amd64
+# required by x11-libs/gdk-pixbuf-2.30.8-r2::gentoo
+# required by www-plugins/adobe-flash-11.2.202.508::gentoo[abi_x86_64,-abi_x86_32]
+# required by @selected
+# required by @world (argument)
+=media-libs/libpng-1.6.18 ~amd64
+# required by dev-python/jsonschema-2.5.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/rfc3986-0.2.2 ~amd64
+# required by dev-python/jsonschema-2.5.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/strict-rfc3339-0.6 ~amd64
+# required by dev-python/jsonschema-2.5.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/webcolors-1.5 ~amd64
+# required by dev-python/jsonschema-2.5.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/vcversioner-2.14.0.0 ~amd64
