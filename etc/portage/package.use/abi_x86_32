@@ -140,14 +140,6 @@
 # required by @selected
 # required by @world (argument)
 >=net-print/cups-2.0.1-r1 abi_x86_32
-# required by net-libs/gnutls-3.3.10-r2
-# required by media-video/libav-9.17[-openssl,ssl]
-# required by kde-base/ffmpegthumbs-4.14.3[libav]
-# required by kde-base/kdemultimedia-meta-4.14.3[ffmpeg]
-# required by kde-base/kde-meta-4.14.3
-# required by @selected
-# required by @world (argument)
-=dev-libs/gmp-5.1.3-r1 abi_x86_32
 # required by x11-libs/pango-1.36.8
 # required by x11-libs/gtk+-2.24.27
 # required by www-plugins/adobe-flash-11.2.202.451[abi_x86_64,-abi_x86_32]
@@ -233,12 +225,6 @@ media-libs/harfbuzz abi_x86_32
 # required by media-sound/pulseaudio-5.0-r7[gtk]
 # required by media-plugins/alsa-plugins-1.0.28[pulseaudio]
 >=x11-libs/libXi-1.7.4 abi_x86_32
-# required by dev-libs/libxslt-1.1.28-r4[crypt]
-# required by dev-python/lxml-3.4.1
-# required by app-text/calibre-1.20
-# required by @selected
-# required by @world (argument)
-=dev-libs/libgcrypt-1.5.4-r1 abi_x86_32
 # required by sys-libs/ncurses-5.9-r3[gpm]
 # required by dev-db/unixODBC-2.3.2-r1
 # required by dev-lang/erlang-17.3[odbc]
@@ -608,13 +594,6 @@ dev-libs/libtasn1 abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=x11-libs/libXdamage-1.1.4-r1 abi_x86_32
-# required by dev-libs/libgcrypt-1.5.4-r1
-# required by dev-libs/libxslt-1.1.28-r4[crypt]
-# required by dev-python/lxml-3.4.1
-# required by app-text/calibre-1.20
-# required by @selected
-# required by @world (argument)
-=dev-libs/libgpg-error-1.13 abi_x86_32
 # required by app-emulation/wine-1.6.2[gphoto2,abi_x86_32]
 # required by app-emulation/q4wine-1.0-r3
 # required by @selected
@@ -668,11 +647,6 @@ dev-libs/libtasn1 abi_x86_32
 # required by dev-qt/qtcore-4.8.6-r1[qt3support]
 # required by dev-qt/qttranslations-4.8.6-r1
 >=dev-qt/qtscript-4.8.6-r1:4 abi_x86_32
-# required by x11-libs/libSM-1.2.2-r1[uuid]
-# required by www-plugins/adobe-flash-11.2.202.451[abi_x86_64,-abi_x86_32,kde]
-# required by @selected
-# required by @world (argument)
-=sys-apps/util-linux-2.25.2-r2 abi_x86_32
 # required by dev-libs/libxslt-1.1.28-r4
 # required by dev-python/lxml-3.4.1
 # required by app-text/calibre-1.20
@@ -807,7 +781,55 @@ dev-libs/libtasn1 abi_x86_32
 # required by @selected
 # required by @world (argument)
 =dev-libs/lzo-2.08 abi_x86_32
-# required by www-client/chromium-43.0.2357.130::gentoo
+# required by app-emulation/wine-1.6.2::gentoo[pulseaudio,abi_x86_32]
+# required by app-emulation/q4wine-1.0-r3::gentoo
 # required by @selected
 # required by @world (argument)
->=media-libs/libvpx-1.4.0 postproc
+>=media-sound/pulseaudio-6.0 abi_x86_32
+# required by x11-libs/libSM-1.2.2-r1::gentoo[uuid]
+# required by app-accessibility/at-spi2-core-2.16.0::gentoo
+# required by app-accessibility/at-spi2-atk-2.16.0-r1::gentoo
+# required by x11-libs/gtk+-3.16.6::gentoo[X]
+# required by x11-drivers/nvidia-drivers-355.11::gentoo[gtk3,tools]
+# required by x11-base/xorg-drivers-1.16::gentoo[video_cards_nvidia]
+# required by x11-base/xorg-server-1.16.4::gentoo[xorg]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/util-linux-2.26.2 abi_x86_32
+# required by dev-libs/libgcrypt-1.6.3-r4::gentoo
+# required by media-libs/libmtp-1.1.8::gentoo[crypt]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=dev-libs/libgpg-error-1.19 abi_x86_32
+# required by dev-libs/libxslt-1.1.28-r4::gentoo[crypt]
+# required by dev-python/lxml-3.4.4::gentoo
+# required by app-text/calibre-1.20::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgcrypt-1.6.3-r4 abi_x86_32
+# required by net-im/skype-4.3.0.37-r5::gentoo[plasma]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/sni-qt-0.2.6-r1 abi_x86_32
+# required by virtual/mysql-5.6-r6::gentoo
+# required by dev-libs/cyrus-sasl-2.1.26-r9::gentoo
+# required by kde-base/kdepimlibs-4.14.8::gentoo
+# required by kde-apps/kgpg-4.14.3::gentoo
+# required by kde-apps/kdeutils-meta-4.14.3::gentoo
+# required by kde-base/kde-meta-4.14.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/libmysqlclient-18 abi_x86_32
+# required by dev-libs/sni-qt-0.2.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r5::gentoo[plasma]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-qt-0.9.3_pre20140619-r1 abi_x86_32
+# required by dev-libs/nettle-3.1.1::gentoo[gmp]
+# required by net-libs/gnutls-3.3.17.1::gentoo
+# required by net-misc/wget-1.16.3-r1::gentoo[ssl,gnutls,-static]
+# required by dev-libs/geoip-1.6.6::gentoo
+# required by net-p2p/ktorrent-4.3.1-r1::gentoo[infowidget]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/gmp-6.0.0a abi_x86_32
+
