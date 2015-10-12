@@ -832,4 +832,16 @@ dev-libs/libtasn1 abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=dev-libs/gmp-6.0.0a abi_x86_32
+# required by net-nds/openldap-2.4.38-r2::gentoo[gnutls,ssl]
+# required by dev-lang/php-5.6.12::gentoo[-ldap-sasl,ldap]
+# required by dev-db/phpmyadmin-4.4.6.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgcrypt-1.6.3-r4 abi_x86_32
+# required by dev-libs/libgcrypt-1.6.3-r4::gentoo
+# required by app-pda/libimobiledevice-1.1.6::gentoo[gnutls]
+# required by app-pda/ideviceinstaller-1.0.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgpg-error-1.19 abi_x86_32
 
