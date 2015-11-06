@@ -20,6 +20,7 @@ net-dialup/ppp dhcp
 net-fs/cifs-utils upcall ads
 net-fs/samba winbind -client
 net-misc/rdesktop ao
+net-misc/asterisk mysql
 net-print/cups avahi
 net-print/hplip fax scanner snmp
 sys-apps/usbredir static-libs
