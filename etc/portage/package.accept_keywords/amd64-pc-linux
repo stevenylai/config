@@ -50,6 +50,9 @@ www-servers/tornado ~amd64
 www-plugins/google-talkplugin ~amd64
 sci-mathematics/yafu ~amd64
 x11-drivers/ati-drivers ~amd64
+# required by dev-python/alembic-0.8.2::gentoo
+# required by dev-python/alembic (argument)
+=dev-python/python-editor-0.4 ~amd64
 # required by www-client/firefox-36.0
 # required by @selected
 # required by @world (argument)
