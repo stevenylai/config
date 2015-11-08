@@ -281,7 +281,7 @@ media-libs/harfbuzz abi_x86_32
 # required by www-client/firefox-36.0.4
 # required by @selected
 # required by @world (argument)
-=dev-libs/elfutils-0.158 abi_x86_32
+dev-libs/elfutils abi_x86_32
 # required by x11-libs/cairo-1.12.18-r1[X]
 # required by x11-libs/gtk+-2.24.27
 # required by www-plugins/adobe-flash-11.2.202.451[abi_x86_64,-abi_x86_32]

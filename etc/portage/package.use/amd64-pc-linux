@@ -27,6 +27,11 @@ sys-apps/usbredir static-libs
 sys-fs/squashfs-tools lzma
 www-client/firefox gstreamer
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
+# required by app-emulation/qemu-2.4.0-r1::gentoo[-qemu_softmmu_targets_moxie,qemu_softmmu_targets_x86_64,-qemu_softmmu_targets_sh4eb,-qemu_user_targets_armeb,-qemu_softmmu_targets_microblaze,-qemu_softmmu_targets_ppc,-qemu_softmmu_targets_s390x,-qemu_user_targets_aarch64,-qemu_user_targets_unicore32,-qemu_user_targets_microblazeel,qemu_user_targets_mipsel,-qemu_user_targets_mipsn32,-qemu_softmmu_targets_sparc,-qemu_user_targets_microblaze,-qemu_user_targets_sparc64,-qemu_user_targets_mips64,-qemu_user_targets_mipsn32el,-qemu_user_targets_sparc32plus,-qemu_softmmu_targets_mips64el,-qemu_softmmu_targets_mips64,-qemu_softmmu_targets_sh4,-qemu_softmmu_targets_tricore,-qemu_user_targets_m68k,-qemu_softmmu_targets_m68k,-qemu_softmmu_targets_lm32,qemu_user_targets_i386,-qemu_user_targets_mips64el,-qemu_user_targets_ppc,-qemu_softmmu_targets_ppcemb,-qemu_softmmu_targets_alpha,-qemu_user_targets_sh4,-qemu_softmmu_targets_unicore32,-qemu_user_targets_or32,-qemu_softmmu_targets_or32,-qemu_softmmu_targets_mips,-qemu_user_targets_ppc64abi32,qemu_user_targets_x86_64,-qemu_user_targets_alpha,-qemu_softmmu_targets_aarch64,-qemu_user_targets_s390x,-qemu_user_targets_ppc64,-qemu_softmmu_targets_microblazeel,-qemu_user_targets_arm,-qemu_user_targets_sparc,xattr,-qemu_user_targets_cris,qemu_softmmu_targets_i386,-qemu_softmmu_targets_xtensa,-qemu_softmmu_targets_xtensaeb,-qemu_softmmu_targets_sparc64,-qemu_softmmu_targets_cris,-qemu_user_targets_mips,-qemu_user_targets_ppc64le,-static-softmmu,qemu_softmmu_targets_mipsel,-qemu_user_targets_sh4eb,-qemu_softmmu_targets_ppc64,static-user,-qemu_softmmu_targets_arm]
+# required by app-emulation/aqemu-0.8.2-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-apps/attr-2.4.47-r2 static-libs
 # required by kde-base/kdeplasma-addons-4.14.3
 # required by kde-base/kde-meta-4.14.3[-minimal]
 # required by @selected
