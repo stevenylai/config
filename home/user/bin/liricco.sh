@@ -1,3 +1,4 @@
+export PATH=${PATH}:./node_modules/.bin
 if [ -d /opt/buildroot-gcc342/bin ]; then
 	export PATH=${PATH}:/opt/buildroot-gcc342/bin
 fi
