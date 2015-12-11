@@ -23,12 +23,27 @@
 # required by @selected
 # required by @world (argument)
 >=gnome-base/librsvg-2.40.9 abi_x86_32
-# required by media-libs/mesa-10.3.7-r1
-# required by virtual/opengl-7.0-r1
-# required by www-client/firefox-36.0.4
-# required by @selected
-# required by @world (argument)
-=x11-proto/glproto-1.4.17 abi_x86_32
+# required by media-libs/mesa-11.0.6::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by media-libs/libsdl-1.2.15-r9::gentoo
+# required by media-video/ffmpeg-2.6.3::gentoo[sdl]
+# required by media-video/vlc-2.2.1-r1::gentoo[avformat,swscale,-libav,avcodec]
+# required by media-libs/phonon-vlc-0.7.2::gentoo
+# required by media-libs/phonon-4.7.2::gentoo[vlc]
+# required by kde-base/kdelibs-4.14.8::gentoo
+# required by kde-apps/kde4-l10n-4.14.3::gentoo[handbook]
+# required by sys-auth/polkit-kde-agent-0.99.1-r1::gentoo[linguas_gl]
+# required by sys-auth/polkit-0.113::gentoo[kde]
+# required by sys-auth/consolekit-0.4.6::gentoo
+# required by sys-auth/pambase-20150213::gentoo[consolekit]
+# required by sys-libs/pam-1.2.1::gentoo
+# required by sys-apps/util-linux-2.26.2::gentoo[pam]
+# required by sys-fs/udev-216::gentoo
+# required by virtual/libgudev-215-r3::gentoo[-systemd]
+# required by sys-power/upower-0.99.2-r1::gentoo
+>=x11-proto/glproto-1.4.17-r1 abi_x86_32
 # required by dev-qt/qtcore-4.8.6-r1[ssl]
 # required by dev-qt/qtgui-4.8.6-r2
 # required by dev-qt/qt3support-4.8.6-r1
@@ -388,20 +403,27 @@ dev-util/pkgconfig abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=x11-libs/libxshmfence-1.2 abi_x86_32
-# required by dev-qt/designer-4.8.5[phonon,kde]
-# required by sys-auth/polkit-kde-agent-0.99.1-r1
-# required by kde-base/kdelibs-4.14.3-r1
-# required by media-video/vlc-2.1.5-r1[kde]
-# required by app-office/libreoffice-4.3.5.2[vlc]
-# required by @selected
-# required by @world (argument)
-=media-libs/phonon-4.7.2 designer
-# required by media-libs/mesa-10.3.7-r1
-# required by virtual/opengl-7.0-r1
-# required by www-client/firefox-36.0.4
-# required by @selected
-# required by @world (argument)
-=x11-libs/libdrm-2.4.59 abi_x86_32
+# required by media-libs/mesa-11.0.6::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by media-libs/libsdl-1.2.15-r9::gentoo
+# required by media-video/ffmpeg-2.6.3::gentoo[sdl]
+# required by media-video/vlc-2.2.1-r1::gentoo[avformat,swscale,-libav,avcodec]
+# required by media-libs/phonon-vlc-0.7.2::gentoo
+# required by media-libs/phonon-4.7.2::gentoo[vlc]
+# required by kde-base/kdelibs-4.14.8::gentoo
+# required by kde-apps/kde4-l10n-4.14.3::gentoo[handbook]
+# required by sys-auth/polkit-kde-agent-0.99.1-r1::gentoo[linguas_gl]
+# required by sys-auth/polkit-0.113::gentoo[kde]
+# required by sys-auth/consolekit-0.4.6::gentoo
+# required by sys-auth/pambase-20150213::gentoo[consolekit]
+# required by sys-libs/pam-1.2.1::gentoo
+# required by sys-apps/util-linux-2.26.2::gentoo[pam]
+# required by sys-fs/udev-216::gentoo
+# required by virtual/libgudev-215-r3::gentoo[-systemd]
+# required by sys-power/upower-0.99.2-r1::gentoo
+>=x11-libs/libdrm-2.4.65 abi_x86_32
 # required by x11-libs/cairo-1.12.18-r1[X]
 # required by x11-libs/gtk+-2.24.27
 # required by www-plugins/adobe-flash-11.2.202.451[abi_x86_64,-abi_x86_32]
