@@ -50,6 +50,16 @@ www-servers/tornado ~amd64
 www-plugins/google-talkplugin ~amd64
 sci-mathematics/yafu ~amd64
 x11-drivers/ati-drivers ~amd64
+# required by dev-python/astroid-1.4.1::gentoo
+# required by dev-python/pylint-1.5.1::gentoo
+# required by app-vim/python-mode-0.6.18-r3::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/lazy-object-proxy-1.2.1 ~amd64
+# required by www-client/firefox-43.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/nspr-4.11 ~amd64
 # required by dev-python/alembic-0.8.2::gentoo
 # required by dev-python/alembic (argument)
 =dev-python/python-editor-0.4 ~amd64

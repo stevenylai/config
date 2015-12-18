@@ -1,3 +1,10 @@
+# required by virtual/libudev-215-r1::gentoo[-systemd]
+# required by media-libs/mesa-11.0.6::gentoo
+# required by media-libs/libepoxy-1.3.1::gentoo
+# required by x11-base/xorg-server-1.17.4::gentoo[glamor,-wayland]
+# required by x11-drivers/xf86-input-evdev-2.9.2::gentoo
+# required by x11-base/xorg-drivers-1.17::gentoo[input_devices_evdev]
+>=sys-fs/udev-225 abi_x86_32
 # required by dev-qt/qtwebkit-4.8.6-r1::gentoo
 # required by kde-base/kde-l10n-4.14.3::gentoo
 # required by app-text/kchmviewer-6.0-r1::gentoo[kde,linguas_zh_CN]
@@ -346,13 +353,6 @@ dev-libs/elfutils abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=x11-proto/xf86bigfontproto-1.2.0-r1 abi_x86_32
-# required by virtual/libudev-215-r1[-systemd]
-# required by sys-apps/util-linux-2.25.2-r2[udev]
-# required by app-emulation/qemu-2.2.0[uuid,-static-softmmu]
-# required by app-emulation/aqemu-0.8.2-r2
-# required by @selected
-# required by @world (argument)
-=sys-fs/udev-216 abi_x86_32
 # required by x11-libs/libXrandr-1.5.0::gentoo
 # required by media-libs/libsdl-1.2.15-r9::gentoo[X]
 # required by media-video/vlc-2.2.1-r1::gentoo[sdl]
