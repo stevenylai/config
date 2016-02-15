@@ -87,6 +87,10 @@ x11-drivers/ati-drivers ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-python/functools32-3.2.3 ~amd64
+# required by dev-python/tox-2.3.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/pluggy-0.3.1 ~amd64
 # required by x11-libs/gdk-pixbuf-2.30.8-r2::gentoo
 # required by www-plugins/adobe-flash-11.2.202.508::gentoo[abi_x86_64,-abi_x86_32]
 # required by @selected
