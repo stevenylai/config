@@ -6,7 +6,7 @@ if [ -d /opt/sdcc/bin ]; then
 	export PATH=${PATH}:/opt/sdcc/bin
 fi
 if [ -d ${HOME}/usr/bin ]; then
-	export PATH=${PATH}:${HOME}/usr/bin
+	export PATH=${HOME}/usr/bin:${PATH}
 fi
 if [ -d "${HOME}/work/src/pyhub_couchdb" ]; then
 	export PYTHONPATH=${HOME}/work/src/pyhub_couchdb
