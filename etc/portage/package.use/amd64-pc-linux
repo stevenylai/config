@@ -28,6 +28,11 @@ sys-apps/usbredir static-libs
 sys-fs/squashfs-tools lzma
 www-client/firefox gstreamer
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
+# required by media-video/vlc-2.1.5-r1::gentoo
+# required by app-office/libreoffice-5.0.5.2::gentoo[vlc]
+# required by @selected
+# required by @world (argument)
+>=net-fs/samba-4.2.11 client
 # required by dev-lang/php-5.6.18::gentoo[apache2]
 # required by dev-db/phpmyadmin-4.5.4.1::gentoo
 # required by @selected
