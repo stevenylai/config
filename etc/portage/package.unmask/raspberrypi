@@ -1,0 +1,2 @@
+# required by sys-boot/raspberrypi-firmware (argument)
+=sys-boot/raspberrypi-firmware-9999

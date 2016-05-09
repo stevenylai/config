@@ -1,8 +1,0 @@
-#=www-servers/nginx-1.3.5-r1::rion
-# required by fastthread (argument)
-# /usr/portage/profiles/package.mask:
-# Manuel Rüger <mrueg@gentoo.org> (07 May 2014)
-# Useful for removed ruby18, no-op in ruby19 and later.
-# Masked for removal in 30 days.
-#=dev-ruby/fastthread-1.0.7-r2
-
