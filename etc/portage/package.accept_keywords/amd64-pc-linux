@@ -52,6 +52,10 @@ www-servers/tornado ~amd64
 www-plugins/google-talkplugin ~amd64
 sci-mathematics/yafu ~amd64
 x11-drivers/ati-drivers ~amd64
+# required by dev-python/aiohttp-0.21.6::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/multidict-1.1.0_alpha6 ~amd64
 # required by dev-python/tox-2.3.1::gentoo
 # required by @selected
 # required by @world (argument)
@@ -59,7 +63,7 @@ x11-drivers/ati-drivers ~amd64
 # required by www-client/firefox-45.0::gentoo
 # required by @selected
 # required by @world (argument)
-=dev-libs/nss-3.22.2 ~amd64
+dev-libs/nss ~amd64
 # required by dev-python/astroid-1.4.4::gentoo
 # required by dev-python/pylint-1.5.4::gentoo
 # required by @selected
