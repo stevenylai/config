@@ -20,6 +20,7 @@ net-analyzer/wireshark -gtk2 -gtk3
 net-dialup/ppp dhcp
 net-fs/cifs-utils upcall ads
 net-fs/samba winbind -client
+net-libs/nodejs npm
 net-misc/rdesktop ao
 net-misc/asterisk mysql
 net-print/cups avahi
