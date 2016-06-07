@@ -1,3 +1,8 @@
+# required by x11-libs/cairo-1.14.6::gentoo
+# required by www-client/firefox-46.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/binutils-libs-2.25.1-r2 abi_x86_32
 # required by media-sound/pulseaudio-8.0::gentoo[glib]
 # required by net-im/skype-4.3.0.37-r6::gentoo[pulseaudio]
 # required by @selected
