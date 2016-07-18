@@ -29,6 +29,87 @@ sys-apps/usbredir static-libs
 sys-fs/squashfs-tools lzma
 www-client/firefox gstreamer
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
+>=kde-plasma/plasma-desktop-5.5.5 legacy-systray
+# required by kde-plasma/kwin-5.5.5::gentoo
+# required by kde-plasma/plasma-workspace-5.5.5-r2::gentoo
+# required by kde-plasma/khotkeys-5.5.5::gentoo
+# required by kde-plasma/kmenuedit-5.5.5::gentoo[hotkeys]
+# required by kde-plasma/plasma-meta-5.5.5::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/mesa-11.0.6 wayland
+# required by kde-apps/artikulate-15.12.3::gentoo
+# required by kde-apps/kdeedu-meta-15.12.3-r1::gentoo
+# required by kde-apps/kde-apps-meta-15.12.3-r3::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/qt-gstreamer-1.2.0-r2 qt5
+# required by kde-frameworks/kfilemetadata-5.21.0::gentoo[pdf]
+# required by kde-apps/baloo-widgets-15.12.3::gentoo
+# required by kde-apps/dolphin-15.12.3-r1::gentoo[semantic-desktop]
+# required by kde-apps/kdecore-meta-15.12.3::gentoo
+# required by kde-apps/kde-apps-meta-15.12.3-r3::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-text/poppler-0.42.0 qt5
+# required by kde-frameworks/kauth-5.21.0::gentoo
+# required by kde-frameworks/kdelibs4support-5.21.0::gentoo
+# required by kde-apps/khelpcenter-5.5.5-r1::gentoo
+# required by kde-base/kdelibs-4.14.20-r2::gentoo[handbook]
+# required by net-p2p/ktorrent-4.3.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-auth/polkit-qt-0.112.0-r1 qt5
+# required by kde-frameworks/knotifications-5.21.0::gentoo[dbus]
+# required by kde-frameworks/kdelibs4support-5.21.0::gentoo
+# required by kde-apps/khelpcenter-5.5.5-r1::gentoo
+# required by kde-base/kdelibs-4.14.20-r2::gentoo[handbook]
+# required by net-p2p/ktorrent-4.3.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-qt-0.9.3_pre20140619-r1 qt5
+# required by media-libs/phonon-4.7.2::gentoo[vlc]
+# required by kde-frameworks/knotifications-5.21.0::gentoo
+# required by kde-frameworks/kdelibs4support-5.21.0::gentoo
+# required by kde-apps/khelpcenter-5.5.5-r1::gentoo
+# required by kde-base/kdelibs-4.14.20-r2::gentoo[handbook]
+# required by net-p2p/ktorrent-4.3.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/phonon-vlc-0.7.2 qt5
+# required by media-libs/phonon-vlc-0.7.2::gentoo
+>=media-libs/phonon-4.7.2 qt5
+# required by kde-apps/rocs-15.12.3::gentoo
+# required by kde-apps/kdeedu-meta-15.12.3-r1::gentoo
+# required by kde-apps/kde-apps-meta-15.12.3-r3::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtscript-5.5.1-r1 scripttools
+# required by kde-apps/kdenlive-15.12.3::gentoo
+# required by kde-apps/kdemultimedia-meta-15.12.3::gentoo
+# required by kde-apps/kde-apps-meta-15.12.3-r3::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/mlt-6.2.0-r1 kdenlive melt ffmpeg qt5
+# required by kde-apps/kdebase-runtime-meta-15.12.3::gentoo
+# required by kde-apps/kdecore-meta-15.12.3::gentoo[-minimal]
+# required by kde-apps/kde-apps-meta-15.12.3-r3::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=kde-apps/solid-runtime-15.12.3 -bluetooth
+# required by kde-apps/kanagram-15.12.3::gentoo
+# required by kde-apps/kdeedu-meta-15.12.3-r1::gentoo
+# required by kde-apps/kde-apps-meta-15.12.3-r3::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtmultimedia-5.5.1-r2 qml
 # required by dev-qt/qtcore-5.5.1-r1::gentoo
 >=dev-libs/libpcre-8.38 pcre16
 # required by media-video/vlc-2.1.5-r1::gentoo

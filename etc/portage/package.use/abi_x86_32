@@ -1,3 +1,28 @@
+# required by media-libs/mesa-11.0.6::gentoo[-opencl,llvm]
+# required by www-client/firefox-47.0.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-devel/llvm-3.7.1-r3 abi_x86_32
+# required by media-libs/mesa-11.0.6::gentoo[-video_cards_r600,llvm,-video_cards_radeonsi,video_cards_radeon,-opencl]
+# required by kde-plasma/kwin-5.5.5::gentoo
+# required by kde-plasma/plasma-workspace-5.5.5-r2::gentoo
+# required by kde-plasma/khotkeys-5.5.5::gentoo
+# required by kde-plasma/kmenuedit-5.5.5::gentoo[hotkeys]
+# required by kde-plasma/plasma-meta-5.5.5::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/libelf-1 abi_x86_32
+# required by media-libs/mesa-11.0.6::gentoo[wayland]
+# required by kde-plasma/kwin-5.5.5::gentoo
+# required by kde-plasma/plasma-workspace-5.5.5-r2::gentoo
+# required by kde-plasma/khotkeys-5.5.5::gentoo
+# required by kde-plasma/kmenuedit-5.5.5::gentoo[hotkeys]
+# required by kde-plasma/plasma-meta-5.5.5::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/wayland-1.9.0 abi_x86_32
 # required by x11-libs/cairo-1.14.6::gentoo
 # required by www-client/firefox-46.0::gentoo
 # required by @selected
@@ -499,12 +524,6 @@ dev-util/pkgconfig abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=x11-proto/fixesproto-5.0-r1 abi_x86_32
-# required by media-libs/mesa-10.3.7-r1[llvm]
-# required by virtual/opengl-7.0-r1
-# required by www-client/firefox-36.0.4
-# required by @selected
-# required by @world (argument)
-=sys-devel/llvm-3.5.0 abi_x86_32
 # required by media-libs/mesa-10.3.7-r1
 # required by virtual/opengl-7.0-r1
 # required by www-client/firefox-36.0.4

@@ -52,6 +52,13 @@ www-servers/tornado ~amd64
 www-plugins/google-talkplugin ~amd64
 sci-mathematics/yafu ~amd64
 x11-drivers/ati-drivers ~amd64
+# required by kde-apps/kdenlive-15.12.3::gentoo
+# required by kde-apps/kdemultimedia-meta-15.12.3::gentoo
+# required by kde-apps/kde-apps-meta-15.12.3-r3::gentoo
+# required by kde-apps/kde-meta-15.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+=media-libs/mlt-6.2.0-r1 ~amd64
 # required by dev-python/aiohttp-0.21.6::gentoo
 # required by @selected
 # required by @world (argument)
