@@ -33,6 +33,8 @@ dev-python/ws4py ~amd64
 dev-util/android-ndk ~amd64
 dev-util/android-sdk-update-manager ~amd64
 dev-util/jenkins-bin ~amd64
+sys-devel/boost-m4 ~amd64
+sys-devel/boost ~amd64
 #required by haskell-platform (argument)
 =dev-haskell/haskell-platform-2012.4.0.0 ~amd64
 # required by dev-haskell/haskell-platform-2012.4.0.0
