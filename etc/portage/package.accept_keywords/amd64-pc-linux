@@ -8,6 +8,7 @@ app-office/openerp-web ~amd64
 dev-db/couchdb ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64
+dev-libs/boost ~amd64
 dev-python/aiohttp ~amd64
 dev-python/alembic ~amd64
 dev-python/astroid ~amd64
@@ -32,9 +33,9 @@ dev-python/tox ~amd64
 dev-python/ws4py ~amd64
 dev-util/android-ndk ~amd64
 dev-util/android-sdk-update-manager ~amd64
+dev-util/boost-build ~amd64
 dev-util/jenkins-bin ~amd64
 sys-devel/boost-m4 ~amd64
-sys-devel/boost ~amd64
 #required by haskell-platform (argument)
 =dev-haskell/haskell-platform-2012.4.0.0 ~amd64
 # required by dev-haskell/haskell-platform-2012.4.0.0
