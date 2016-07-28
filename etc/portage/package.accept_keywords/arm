@@ -6,3 +6,10 @@
 dev-python/cov-core ~arm
 # required by nosexcover (argument)
 dev-python/nosexcover ~arm
+# required by sci-libs/scikits_learn-0.17.1::gentoo
+# required by sci-libs/scikits_learn (argument)
+=sci-libs/scipy-0.17.0 ~arm
+# required by sci-libs/scipy-0.17.0::gentoo
+# required by sci-libs/scikits_learn-0.17.1::gentoo
+# required by sci-libs/scikits_learn (argument)
+=sci-libs/arpack-3.1.5 ~arm
