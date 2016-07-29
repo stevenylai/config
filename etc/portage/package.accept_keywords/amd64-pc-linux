@@ -5,6 +5,7 @@ app-emacs/auto-complete ~amd64
 app-i18n/ibus-pinyin ~amd64
 app-office/openerp-server ~amd64
 app-office/openerp-web ~amd64
+app-text/calibre ~amd64
 dev-db/couchdb ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64

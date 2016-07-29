@@ -10,7 +10,7 @@ dev-libs/protobuf -emacs
 dev-python/numpy lapack
 dev-python/ws4py -server
 dev-ruby/rubygems server
-dev-qt/qtwebkit gstreamer -exceptions
+dev-qt/qtwebkit gstreamer printsupport -exceptions
 kde-base/kopete jingle latex oscar qq skype yahoo
 kde-base/krdc rdesktop vnc
 media-gfx/xsane gimp ocr
@@ -30,6 +30,9 @@ sys-apps/usbredir static-libs
 sys-fs/squashfs-tools lzma
 www-client/firefox gstreamer
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
+# required by app-text/calibre-2.55.0::gentoo
+# required by calibre (argument)
+>=dev-python/PyQt5-5.5.1 webkit
 >=kde-plasma/plasma-desktop-5.5.5 legacy-systray
 # required by kde-plasma/kwin-5.5.5::gentoo
 # required by kde-plasma/plasma-workspace-5.5.5-r2::gentoo
