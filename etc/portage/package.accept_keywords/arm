@@ -13,3 +13,16 @@ dev-python/nosexcover ~arm
 # required by sci-libs/scikits_learn-0.17.1::gentoo
 # required by sci-libs/scikits_learn (argument)
 =sci-libs/arpack-3.1.5 ~arm
+# required by dev-python/passlib (argument)
+=dev-python/passlib-1.6.5-r1 **
+# required by dev-python/passlib-1.6.5-r1::gentoo
+# required by dev-python/passlib (argument)
+=dev-python/bcrypt-3.1.0 **
+# required by dev-python/jsonpatch-1.13::gentoo
+# required by dev-python/jsonpatch (argument)
+=dev-python/jsonpointer-1.10 **
+# required by dev-python/jsonpatch (argument)
+=dev-python/jsonpatch-1.13 **
+# required by dev-python/alembic-0.8.5::gentoo
+# required by dev-python/alembic (argument)
+=dev-python/python-editor-0.4 **
