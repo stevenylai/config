@@ -34,6 +34,10 @@ www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 # required by calibre (argument)
 >=dev-python/PyQt5-5.5.1 webkit
 >=kde-plasma/plasma-desktop-5.5.5 legacy-systray
+# required by app-emulation/aqemu-0.8.2-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-arch/bzip2-1.0.6-r7 static-libs
 # required by kde-plasma/kwin-5.5.5::gentoo
 # required by kde-plasma/plasma-workspace-5.5.5-r2::gentoo
 # required by kde-plasma/khotkeys-5.5.5::gentoo
