@@ -8,6 +8,7 @@ fi
 if [ -d ${HOME}/usr/bin ]; then
 	export PATH=${HOME}/usr/bin:${PATH}
 fi
+export PATH=${HOME}/.gem/ruby/2.1.0/bin:${PATH}
 if [ -d "${HOME}/work/src/pyhub_couchdb" ]; then
 	export PYTHONPATH=${HOME}/work/src/pyhub_couchdb
 elif [ -d "${HOME}/work/src/pyhub" ]; then
