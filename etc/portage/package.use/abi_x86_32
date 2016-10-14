@@ -1,3 +1,14 @@
+# required by dev-libs/glib-2.48.2::gentoo
+# required by dev-libs/libgudev-230-r1::gentoo
+# required by virtual/libgudev-230::gentoo
+# required by net-misc/modemmanager-1.4.14::gentoo
+# required by net-misc/networkmanager-1.4.0-r1::gentoo[modemmanager]
+# required by kde-frameworks/networkmanager-qt-5.26.0-r2::gentoo
+# required by kde-plasma/powerdevil-5.7.5::gentoo[wireless]
+# required by kde-plasma/plasma-meta-5.7.5::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre-8.38-r1 abi_x86_32
 # required by media-libs/mesa-11.0.6::gentoo[-opencl,llvm]
 # required by www-client/firefox-47.0.1::gentoo
 # required by @selected
