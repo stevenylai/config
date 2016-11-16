@@ -168,3 +168,7 @@ dev-libs/nss ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-libs/sni-qt-0.2.6-r1 ~amd64
+# required by dev-python/aiohttp-1.1.2::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/yarl-0.7.0 ~amd64
