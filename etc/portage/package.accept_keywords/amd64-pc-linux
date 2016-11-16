@@ -56,6 +56,19 @@ www-servers/tornado ~amd64
 www-plugins/google-talkplugin ~amd64
 sci-mathematics/yafu ~amd64
 x11-drivers/ati-drivers ~amd64
+# required by dev-python/s3transfer-0.1.5::gentoo
+# required by dev-python/awscli-1.11.0::gentoo
+# required by awscli (argument)
+=dev-python/botocore-1.4.58 ~amd64
+# required by dev-python/awscli-1.11.0::gentoo
+# required by awscli (argument)
+=dev-python/s3transfer-0.1.5 ~amd64
+# required by awscli (argument)
+=dev-python/awscli-1.11.0 ~amd64
+# required by dev-python/botocore-1.4.58::gentoo
+# required by dev-python/awscli-1.11.0::gentoo
+# required by awscli (argument)
+=dev-python/jmespath-0.9.0 ~amd64
 # required by www-servers/tornado-4.4.1::gentoo
 # required by dev-python/ws4py-0.3.4::gentoo[client]
 # required by @selected
