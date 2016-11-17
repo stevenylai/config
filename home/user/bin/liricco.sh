@@ -10,9 +10,11 @@ if [ -d ${HOME}/usr/bin ]; then
 fi
 export PATH=${HOME}/.gem/ruby/2.1.0/bin:${PATH}
 if [ -d "${HOME}/work/src/pyhub_couchdb" ]; then
-	export PYTHONPATH=${HOME}/work/src/pyhub_couchdb
+	export PYHUBPATH=${HOME}/work/src/pyhub_couchdb
+	export PYTHONPATH=${PYHUBPATH}
 elif [ -d "${HOME}/work/src/pyhub" ]; then
-	export PYTHONPATH=${HOME}/work/src/pyhub
+	export PYHUBPATH=${HOME}/work/src/pyhub
+	export PYTHONPATH=${PYHUBPATH}
 fi
 li_env() {
 	if [ -n "`uname|grep -i cygwin`" ]; then
