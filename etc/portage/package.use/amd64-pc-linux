@@ -5,7 +5,7 @@ app-text/texlive extra graphics pdfannotextractor pstricks publishers science
 dev-lang/gcc fortran
 dev-lang/php gd mysqli
 dev-lang/python sqlite
-dev-libs/boost context
+dev-libs/boost context python
 dev-libs/protobuf -emacs
 dev-python/numpy lapack
 dev-python/ws4py -server
