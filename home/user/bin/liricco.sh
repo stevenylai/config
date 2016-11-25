@@ -16,6 +16,11 @@ elif [ -d "${HOME}/work/src/pyhub" ]; then
 	export PYHUBPATH=${HOME}/work/src/pyhub
 	export PYTHONPATH=${PYHUBPATH}
 fi
+if [ -d "${HOME}/work/src/engel" ]; then
+	export PYTHONPATH=${PYTHONPATH}:${HOME}/work/src/engel
+elif [ -d "${HOME}/work/src/pysf" ]; then
+	export PYTHONPATH=${PYTHONPATH}:${HOME}/work/src/pysf
+fi
 li_env() {
 	if [ -n "`uname|grep -i cygwin`" ]; then
 		export PATH=/usr/local/bin:/usr/bin:${HOME}/bin
