@@ -21,6 +21,11 @@ if [ -d "${HOME}/work/src/engel" ]; then
 elif [ -d "${HOME}/work/src/pysf" ]; then
 	export PYTHONPATH=${PYTHONPATH}:${HOME}/work/src/pysf
 fi
+if [ -d "${HOME}/work/src/notification" ]; then
+	export PYTHONPATH=${PYTHONPATH}:${HOME}/work/src/notification
+elif [ -d "${HOME}/work/src/valta" ]; then
+	export PYTHONPATH=${PYTHONPATH}:${HOME}/work/src/valta
+fi
 li_env() {
 	if [ -n "`uname|grep -i cygwin`" ]; then
 		export PATH=/usr/local/bin:/usr/bin:${HOME}/bin
