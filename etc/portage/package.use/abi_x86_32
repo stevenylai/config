@@ -24,6 +24,14 @@
 # required by @selected
 # required by @world (argument)
 >=virtual/libelf-1 abi_x86_32
+# required by media-libs/libsndfile-1.0.26::gentoo[-minimal]
+# required by media-sound/pulseaudio-9.0::gentoo
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=media-libs/libogg-1.3.2 abi_x86_32
+# required by media-libs/libsndfile-1.0.26::gentoo[-minimal]
+# required by media-sound/pulseaudio-9.0::gentoo
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=media-libs/libvorbis-1.3.5 abi_x86_32
 # required by media-libs/mesa-11.0.6::gentoo[wayland]
 # required by kde-plasma/kwin-5.5.5::gentoo
 # required by kde-plasma/plasma-workspace-5.5.5-r2::gentoo
@@ -238,10 +246,6 @@
 # required by dev-qt/qtcore-4.8.6-r1[qt3support]
 # required by dev-qt/qttranslations-4.8.6-r1
 >=dev-qt/qtsql-4.8.6-r1:4 abi_x86_32
-# required by media-libs/libsndfile-1.0.25-r1[-minimal]
-# required by media-sound/pulseaudio-5.0-r7
-# required by media-plugins/alsa-plugins-1.0.28[pulseaudio]
-=media-libs/libvorbis-1.3.4 abi_x86_32
 # required by app-emulation/wine-1.6.2[openal,abi_x86_32]
 # required by app-emulation/q4wine-1.0-r3
 # required by @selected
@@ -309,11 +313,6 @@ media-libs/harfbuzz abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=app-arch/bzip2-1.0.6-r6 abi_x86_32
-# required by media-libs/flac-1.3.1-r1[ogg]
-# required by media-libs/libsndfile-1.0.25-r1[-minimal]
-# required by media-sound/pulseaudio-5.0-r7
-# required by media-plugins/alsa-plugins-1.0.28[pulseaudio]
-=media-libs/libogg-1.3.1 abi_x86_32
 # required by x11-libs/gtk+-2.24.27
 # required by www-plugins/adobe-flash-11.2.202.451[abi_x86_64,-abi_x86_32]
 # required by @selected
