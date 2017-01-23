@@ -37,6 +37,7 @@ dev-util/android-sdk-update-manager ~amd64
 dev-util/boost-build ~amd64
 dev-util/jenkins-bin ~amd64
 sys-devel/boost-m4 ~amd64
+x11-misc/sddm ~amd64
 #required by haskell-platform (argument)
 =dev-haskell/haskell-platform-2012.4.0.0 ~amd64
 # required by dev-haskell/haskell-platform-2012.4.0.0
@@ -106,6 +107,10 @@ dev-python/multidict ~amd64
 # required by @selected
 # required by @world (argument)
 dev-libs/nss ~amd64
+# required by dev-python/pylint-1.6.4::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/isort-4.2.5 ~amd64
 # required by dev-python/astroid-1.4.4::gentoo
 # required by dev-python/pylint-1.5.4::gentoo
 # required by @selected
