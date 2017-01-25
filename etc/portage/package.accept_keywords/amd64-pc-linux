@@ -1,28 +1,26 @@
-app-admin/ec2-ami-tools ~amd64
-app-admin/ec2-api-tools ~amd64
 app-arch/lzma ~amd64
 app-emacs/auto-complete ~amd64
-app-i18n/ibus-pinyin ~amd64
 app-i18n/ibus-sunpinyin ~amd64
-app-office/openerp-server ~amd64
-app-office/openerp-web ~amd64
 app-text/calibre ~amd64
 dev-db/couchdb ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64
 dev-libs/boost ~amd64
+dev-python/aiodns ~amd64
 dev-python/aiohttp ~amd64
 dev-python/alembic ~amd64
-dev-python/astroid ~amd64
-dev-python/asyncio ~amd64
+dev-python/awscli ~amd64
 dev-python/couchdb-python ~amd64
 dev-python/cov-core ~amd64
 # required by scikits_learn (argument)
 dev-python/joblib ~amd64
 dev-python/jsonschema ~amd64
+dev-python/matplotlib ~amd64
 dev-python/nosexcover ~amd64
 dev-python/numpy ~amd64
+dev-python/pandas ~amd64
 dev-python/psutil ~amd64
+dev-python/pycares ~amd64
 dev-python/pycountry ~amd64
 dev-python/pylint ~amd64
 dev-python/pymysql ~amd64
@@ -32,7 +30,6 @@ dev-python/python-evdev ~amd64
 dev-python/sphinx_rtd_theme ~amd64
 dev-python/sqlalchemy ~amd64
 dev-python/tox ~amd64
-dev-python/ws4py ~amd64
 dev-qt/qt-creator ~amd64
 dev-util/android-ndk ~amd64
 dev-util/android-sdk-update-manager ~amd64
@@ -46,19 +43,59 @@ x11-misc/sddm ~amd64
 # required by haskell-platform (argument)
 =dev-haskell/cabal-install-1.18.0.3 ~amd64
 # Temporary
-media-libs/mediastreamer ~amd64
 net-analyzer/arp-scan ~amd64
 net-im/skype ~amd64
 net-misc/r8168 ~amd64
 net-wireless/broadcom-sta ~amd64
+sci-mathematics/pymc3 ~amd64
 sci-libs/scikits ~amd64
 sci-libs/scikits_learn ~amd64
-sys-fs/squashfs-tools ~amd64
 www-client/firefox ~amd64
 www-servers/tornado ~amd64
 www-plugins/google-talkplugin ~amd64
-sci-mathematics/yafu ~amd64
 x11-drivers/ati-drivers ~amd64
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/nbsphinx-0.2.8 ~amd64
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/tqdm-4.10.0 ~amd64
+# required by dev-python/nbconvert-4.3.0::gentoo
+# required by dev-python/nbsphinx-0.2.8::gentoo
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/entrypoints-0.2.1 ~amd64
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/recommonmark-0.4.0 ~amd64
+# required by dev-python/nbsphinx-0.2.8::gentoo
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/nbconvert-4.3.0 ~amd64
+# required by dev-python/matplotlib-1.5.3::gentoo
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/cycler-0.10.0 ~amd64
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/theano-0.8.2 ~amd64
+# required by dev-python/nbconvert-4.3.0::gentoo
+# required by dev-python/nbsphinx-0.2.8::gentoo
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/jupyter_core-4.2.1 ~amd64
+# required by dev-python/matplotlib-1.5.3::gentoo
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/versioneer-0.16 ~amd64
+# required by dev-python/recommonmark-0.4.0::gentoo
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/CommonMark-0.5.4 ~amd64
+# required by dev-python/nbsphinx-0.2.8::gentoo
+# required by sci-mathematics/pymc3-3.0_rc6::gentoo
+# required by pymc3 (argument)
+=dev-python/nbformat-4.2.0 ~amd64
 # required by dev-python/s3transfer-0.1.5::gentoo
 # required by dev-python/awscli-1.11.0::gentoo
 # required by awscli (argument)
@@ -66,49 +103,18 @@ x11-drivers/ati-drivers ~amd64
 # required by dev-python/awscli-1.11.0::gentoo
 # required by awscli (argument)
 =dev-python/s3transfer-0.1.5 ~amd64
-# required by awscli (argument)
-=dev-python/awscli-1.11.0 ~amd64
 # required by dev-python/botocore-1.4.58::gentoo
 # required by dev-python/awscli-1.11.0::gentoo
 # required by awscli (argument)
 =dev-python/jmespath-0.9.0 ~amd64
-# required by www-servers/tornado-4.4.1::gentoo
-# required by dev-python/ws4py-0.3.4::gentoo[client]
-# required by @selected
-# required by @world (argument)
-=dev-python/backports-ssl-match-hostname-3.5.0.1-r1 ~amd64
 # required by dev-python/aiohttp-1.0.3::gentoo
 # required by @selected
 # required by @world (argument)
 =dev-python/async_timeout-1.0.0 ~amd64
-# required by dev-python/aiohttp-1.0.3::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-python/aiodns-1.1.1 ~amd64
-# required by dev-python/aiodns-1.1.1::gentoo
-# required by dev-python/aiohttp-1.0.3::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-python/pycares-2.1.0 ~amd64
-# required by kde-apps/kdenlive-15.12.3::gentoo
-# required by kde-apps/kdemultimedia-meta-15.12.3::gentoo
-# required by kde-apps/kde-apps-meta-15.12.3-r3::gentoo
-# required by kde-apps/kde-meta-15.12.3::gentoo
-# required by @selected
-# required by @world (argument)
-=media-libs/mlt-6.2.0-r1 ~amd64
 # required by dev-python/aiohttp-0.22.5::gentoo
 # required by @selected
 # required by @world (argument)
 dev-python/multidict ~amd64
-# required by dev-python/tox-2.3.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-python/pluggy-0.3.1 ~amd64
-# required by www-client/firefox-45.0::gentoo
-# required by @selected
-# required by @world (argument)
-dev-libs/nss ~amd64
 # required by dev-python/pylint-1.6.4::gentoo
 # required by @selected
 # required by @world (argument)
@@ -118,63 +124,14 @@ dev-libs/nss ~amd64
 # required by @selected
 # required by @world (argument)
 =dev-python/lazy-object-proxy-1.2.1 ~amd64
-# required by dev-libs/nss-3.22.2::gentoo
-# required by www-client/firefox-45.0::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-libs/nspr-4.11 ~amd64
-# required by dev-python/alembic-0.8.2::gentoo
-# required by dev-python/alembic (argument)
-=dev-python/python-editor-0.4 ~amd64
-# required by media-libs/mesa-10.2.6
-# required by x11-libs/cairo-1.12.16[opengl]
-# required by dev-python/pygobject-3.12.2[cairo]
-# required by app-admin/system-config-printer-common-1.4.3
-# required by app-admin/system-config-printer-gnome-1.4.3-r1
-# required by kde-base/print-manager-4.12.5
-# required by kde-base/kdeutils-meta-4.12.5[cups]
-# required by kde-base/kde-meta-4.12.5
-# required by @selected
-# required by @world (argument)
-=x11-libs/libdrm-2.4.54 ~amd64
-# required by media-gfx/icoutils-0.31.0
-# required by app-emulation/q4wine-1.0-r3[icoutils]
-# required by @selected
-# required by @world (argument)
-=media-libs/libpng-1.6.15 ~amd64
-# required by dev-python/jsonschema-2.5.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-python/functools32-3.2.3 ~amd64
 # required by dev-python/tox-2.3.1::gentoo
 # required by @selected
 # required by @world (argument)
 =dev-python/pluggy-0.3.1 ~amd64
-# required by x11-libs/gdk-pixbuf-2.30.8-r2::gentoo
-# required by www-plugins/adobe-flash-11.2.202.508::gentoo[abi_x86_64,-abi_x86_32]
-# required by @selected
-# required by @world (argument)
-=media-libs/libpng-1.6.18 ~amd64
-# required by dev-python/jsonschema-2.5.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-python/rfc3986-0.2.2 ~amd64
-# required by dev-python/jsonschema-2.5.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-python/strict-rfc3339-0.6 ~amd64
-# required by dev-python/jsonschema-2.5.1::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-python/webcolors-1.5 ~amd64
 # required by dev-python/jsonschema-2.5.1::gentoo
 # required by @selected
 # required by @world (argument)
 =dev-python/vcversioner-2.14.0.0 ~amd64
-# required by net-im/skype-4.3.0.37-r5::gentoo[plasma]
-# required by @selected
-# required by @world (argument)
-=dev-libs/sni-qt-0.2.6-r1 ~amd64
 # required by dev-python/aiohttp-1.1.2::gentoo
 # required by @selected
 # required by @world (argument)
