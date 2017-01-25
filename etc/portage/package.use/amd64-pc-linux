@@ -19,6 +19,7 @@ media-libs/mesa osmesa gbm
 media-video/vlc fontconfig matroska run-as-root
 net-analyzer/wireshark -gtk2 -gtk3
 net-dialup/ppp dhcp
+net-dns/bind dlz -mysql
 net-fs/cifs-utils upcall ads
 net-fs/samba winbind -client
 net-libs/nodejs npm
