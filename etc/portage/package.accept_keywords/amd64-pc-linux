@@ -5,6 +5,10 @@ app-text/calibre ~amd64
 dev-db/couchdb ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64
+dev-haskell/async ~amd64
+dev-haskell/haskell-platform ~amd64
+dev-haskell/parallel ~amd64
+dev-haskell/primitive ~amd64
 dev-libs/boost ~amd64
 dev-python/aiodns ~amd64
 dev-python/aiohttp ~amd64
@@ -35,24 +39,17 @@ dev-util/android-ndk ~amd64
 dev-util/android-sdk-update-manager ~amd64
 dev-util/boost-build ~amd64
 dev-util/jenkins-bin ~amd64
-sys-devel/boost-m4 ~amd64
-x11-misc/sddm ~amd64
-#required by haskell-platform (argument)
-=dev-haskell/haskell-platform-2012.4.0.0 ~amd64
-# required by dev-haskell/haskell-platform-2012.4.0.0
-# required by haskell-platform (argument)
-=dev-haskell/cabal-install-1.18.0.3 ~amd64
-# Temporary
 net-analyzer/arp-scan ~amd64
 net-im/skype ~amd64
 net-misc/r8168 ~amd64
 net-wireless/broadcom-sta ~amd64
-sci-mathematics/pymc3 ~amd64
 sci-libs/scikits ~amd64
 sci-libs/scikits_learn ~amd64
+sci-mathematics/pymc3 ~amd64
+sys-devel/boost-m4 ~amd64
 www-client/firefox ~amd64
-www-servers/tornado ~amd64
 www-plugins/google-talkplugin ~amd64
+www-servers/tornado ~amd64
 x11-drivers/ati-drivers ~amd64
 # required by sci-mathematics/pymc3-3.0_rc6::gentoo
 # required by pymc3 (argument)
