@@ -26,3 +26,5 @@ dev-python/nosexcover ~arm
 # required by dev-python/alembic-0.8.5::gentoo
 # required by dev-python/alembic (argument)
 =dev-python/python-editor-0.4 **
+# required by cachetools (argument)
+=dev-python/cachetools-1.1.5 **
