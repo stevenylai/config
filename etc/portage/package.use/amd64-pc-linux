@@ -6,6 +6,7 @@ dev-lang/php gd mysqli
 dev-lang/python sqlite
 dev-libs/boost context python
 dev-python/numpy lapack
+dev-python/pillow jpeg lcms tiff truetype
 dev-ruby/rubygems server
 dev-qt/qtwebkit gstreamer printsupport -exceptions
 kde-base/kopete jingle latex oscar qq skype yahoo
