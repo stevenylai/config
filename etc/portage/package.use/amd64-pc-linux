@@ -41,6 +41,18 @@ dev-libs/glib static-libs
 sys-apps/attr static-libs
 sys-apps/usbredir static-libs
 sys-libs/zlib static-libs
+>=x11-libs/pixman-0.34.0 static-libs
+>=virtual/jpeg-0-r2:0 static-libs
+>=sys-libs/libcap-ng-0.7.8 static-libs
+>=dev-libs/openssl-1.0.2k static-libs
+>=net-misc/curl-7.53.0 static-libs
+>=media-libs/libjpeg-turbo-1.5.0 static-libs
+>=sys-libs/ncurses-6.0-r1 static-libs
+>=media-libs/libsdl-1.2.15-r9 static-libs
+>=sys-libs/libseccomp-2.3.0 static-libs
+>=sys-apps/dtc-1.4.1 static-libs
+>=dev-libs/libaio-0.3.110 static-libs
+>=media-libs/libpng-1.6.27 static-libs
 # required by kde-apps/kanagram-15.12.3::gentoo
 # required by kde-apps/kdeedu-meta-15.12.3-r1::gentoo
 # required by kde-apps/kde-apps-meta-15.12.3-r3::gentoo

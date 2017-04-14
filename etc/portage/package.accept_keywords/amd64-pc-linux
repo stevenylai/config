@@ -52,6 +52,11 @@ www-client/firefox ~amd64
 www-plugins/google-talkplugin ~amd64
 www-servers/tornado ~amd64
 x11-drivers/ati-drivers ~amd64
+# required by net-misc/networkmanager-1.4.4-r1::gentoo
+# required by www-client/firefox-52.0.2::gentoo[wifi]
+# required by @selected
+# required by @world (argument)
+=dev-libs/nss-3.30.1 ~amd64
 # required by sci-mathematics/pymc3-3.0_rc6::gentoo
 # required by pymc3 (argument)
 =dev-python/nbsphinx-0.2.8 ~amd64
