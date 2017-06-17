@@ -1,3 +1,12 @@
+# required by net-dns/libidn2-0.16-r1::gentoo
+# required by net-libs/gnutls-3.5.12::gentoo[idn]
+# required by net-libs/glib-networking-2.50.0::gentoo[ssl]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=dev-libs/libunistring-0.9.7 abi_x86_32
+# required by net-libs/gnutls-3.5.12::gentoo[idn]
+# required by net-libs/glib-networking-2.50.0::gentoo[ssl]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=net-dns/libidn2-0.16-r1 abi_x86_32
 # required by x11-drivers/nvidia-drivers-378.13::gentoo[X]
 # required by x11-base/xorg-drivers-1.19::gentoo[video_cards_nvidia]
 # required by x11-base/xorg-server-1.19.2::gentoo[xorg]

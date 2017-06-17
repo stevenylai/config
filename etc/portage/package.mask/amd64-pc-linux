@@ -1,0 +1,5 @@
+# required by @__auto_slot_operator_replace_installed__ (argument)
+# /usr/portage/profiles/package.mask:
+# Lars Wendler <polynomial-c@gentoo.org> (09 Sep 2015)
+# Masked for testing.
+=net-fs/samba-4.6.3
