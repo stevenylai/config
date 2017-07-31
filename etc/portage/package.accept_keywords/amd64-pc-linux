@@ -6,6 +6,7 @@ dev-db/couchdb ~amd64
 dev-embedded/nesc ~amd64
 dev-embedded/tinyos-tools ~amd64
 dev-haskell/async ~amd64
+dev-haskell/happstack-server ~amd64
 dev-haskell/haskell-platform ~amd64
 dev-haskell/parallel ~amd64
 dev-haskell/primitive ~amd64
@@ -241,4 +242,18 @@ dev-python/multidict ~amd64
 # required by @selected
 # required by @world (argument)
 =media-libs/libpng-1.6.29 ~amd64
+# required by dev-python/matplotlib-2.0.2::gentoo
+# required by sci-libs/scikits_learn-0.18.2::gentoo
+# required by @selected
+# required by @world (argument)
+=media-libs/qhull-2015.2 ~amd64
+# required by dev-haskell/happstack-server-7.4.6.2::gentoo
+# required by happstack-server (argument)
+=dev-haskell/sendfile-0.7.9 ~amd64
+# required by dev-haskell/happstack-server-7.4.6.2::gentoo
+# required by happstack-server (argument)
+=dev-haskell/time-compat-0.1.0.3 ~amd64
+# required by dev-haskell/happstack-server-7.4.6.2::gentoo
+# required by happstack-server (argument)
+=dev-haskell/threads-0.5.1.4 ~amd64
 
