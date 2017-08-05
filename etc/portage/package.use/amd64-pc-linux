@@ -9,6 +9,7 @@ dev-python/numpy lapack
 dev-python/pillow jpeg lcms tiff truetype
 dev-ruby/rubygems server
 dev-qt/qtwebkit gstreamer printsupport -exceptions
+kde-plasma/plasma-meta pulseaudio
 kde-base/kopete jingle latex oscar qq skype yahoo
 kde-base/krdc rdesktop vnc
 media-libs/mesa osmesa gbm wayland
