@@ -63,10 +63,11 @@ x11-drivers/ati-drivers ~amd64
 =dev-util/cargo-0.21.0 ~amd64
 # required by dev-util/cargo-0.21.0::gentoo
 # required by dev-lang/rust-1.19.0::gentoo
-=virtual/rust-1.19.0 ~amd64
+virtual/rust ~amd64
 # required by virtual/rust-1.19.0::gentoo
 # required by dev-util/cargo-0.21.0::gentoo
-=dev-lang/rust-1.19.0 ~amd64
+dev-lang/rust-bin ~amd64
+dev-lang/rust ~amd64
 # required by dev-libs/nss-3.32.1::gentoo
 # required by www-client/chromium-61.0.3163.79::gentoo
 # required by @selected
@@ -201,14 +202,16 @@ dev-python/multidict ~amd64
 # required by @selected
 # required by @world (argument)
 =app-text/podofo-0.9.6_pre20170508-r1 ~amd64
-# required by dev-java/icedtea-bin-3.3.0-r1::gentoo[-headless-awt,-multilib]
-# required by virtual/jdk-1.8.0-r3::gentoo
-# required by dev-java/tomcat-servlet-api-7.0.77::gentoo
-# required by java-virtuals/servlet-api-3.0-r1::gentoo
-# required by dev-java/maven-bin-3.3.3-r1::gentoo
+# required by media-libs/freetype-2.8::gentoo
+# required by app-text/poppler-0.57.0::gentoo
+# required by app-text/calibre-3.8.0::gentoo
 # required by @selected
 # required by @world (argument)
-=media-libs/libpng-1.6.29 ~amd64
+media-libs/libpng ~amd64
+# required by app-text/calibre-3.8.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/html5-parser-0.4.4 ~amd64
 # required by dev-python/jsonschema-2.6.0::gentoo
 # required by @selected
 # required by @world (argument)
