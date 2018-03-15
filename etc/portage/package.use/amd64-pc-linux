@@ -1,10 +1,13 @@
 app-emulation/qemu static-user usbredir
 app-emulation/wine elibc_glibc fontconfig gphoto2 gsm openal osmesa pulseaudio scanner selinux
 app-text/texlive extra graphics pdfannotextractor pstricks publishers science
+dev-java/icedtea-web javascript
 dev-lang/gcc fortran
 dev-lang/php gd mysqli
 dev-lang/python sqlite
 dev-libs/boost context python
+dev-libs/xmlsec nss
+dev-python/dbus-python python_targests_python3_4
 dev-python/numpy lapack
 dev-python/pillow jpeg lcms tiff truetype
 dev-ruby/rubygems server
@@ -24,6 +27,7 @@ net-misc/rdesktop ao
 net-misc/asterisk mysql
 net-print/cups avahi
 sys-fs/squashfs-tools lzma
+www-client/firefox pulseaudio
 www-plugins/gnash egl fbcon gconf gstreamer openvg ssh vaapi
 # required by www-client/chromium-54.0.2840.100::gentoo
 # required by @selected
