@@ -73,12 +73,6 @@
 # required by x11-drivers/xf86-video-ati-7.5.0::gentoo
 # required by @__auto_slot_operator_replace_installed__ (argument)
 >=x11-libs/libX11-1.6.3 abi_x86_32
-# required by virtual/jpeg-62::gentoo
-# required by app-emulation/qemu-2.5.0-r1::gentoo
-# required by app-emulation/aqemu-0.8.2-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=media-libs/libjpeg-turbo-1.4.2 abi_x86_32
 # required by x11-libs/libXrandr-1.5.0::gentoo
 # required by kde-base/kephal-4.11.22::gentoo
 # required by kde-base/plasma-workspace-4.11.22::gentoo
@@ -93,23 +87,6 @@
 # required by x11-drivers/xf86-video-intel-2.99.917-r2::gentoo
 # required by x11-base/xorg-drivers-1.17::gentoo[video_cards_intel]
 >=x11-proto/glproto-1.4.17-r1 abi_x86_32
-# required by media-libs/mesa-11.0.6::gentoo
-# required by x11-base/xorg-server-1.17.4::gentoo[-minimal]
-# required by x11-drivers/xf86-video-intel-2.99.917-r2::gentoo
-# required by x11-base/xorg-drivers-1.17::gentoo[video_cards_intel]
->=x11-libs/libdrm-2.4.65 abi_x86_32
-# required by x11-libs/libxcb-1.11.1::gentoo
-# required by media-libs/mesa-11.0.6::gentoo
-# required by x11-base/xorg-server-1.17.4::gentoo[-minimal]
-# required by x11-drivers/xf86-video-intel-2.99.917-r2::gentoo
-# required by x11-base/xorg-drivers-1.17::gentoo[video_cards_intel]
->=x11-libs/libXdmcp-1.1.2 abi_x86_32
-# required by virtual/opengl-7.0-r1::gentoo
-# required by app-emulation/qemu-2.5.0-r1::gentoo[-qemu_softmmu_targets_arm,-qemu_softmmu_targets_ppc,-qemu_softmmu_targets_sparc,-qemu_softmmu_targets_alpha,-qemu_softmmu_targets_s390x,-qemu_softmmu_targets_microblazeel,-qemu_softmmu_targets_moxie,-qemu_softmmu_targets_microblaze,-qemu_softmmu_targets_mips64el,-qemu_softmmu_targets_ppc64,-qemu_softmmu_targets_tricore,qemu_softmmu_targets_x86_64,-qemu_softmmu_targets_mips,-qemu_softmmu_targets_ppcemb,-qemu_softmmu_targets_m68k,opengl,qemu_softmmu_targets_i386,-qemu_softmmu_targets_cris,-qemu_softmmu_targets_or32,-qemu_softmmu_targets_sparc64,-qemu_softmmu_targets_xtensa,-qemu_softmmu_targets_mips64,-qemu_softmmu_targets_sh4,-qemu_softmmu_targets_xtensaeb,-qemu_softmmu_targets_sh4eb,-qemu_softmmu_targets_aarch64,-static-softmmu,-qemu_softmmu_targets_unicore32,qemu_softmmu_targets_mipsel,-qemu_softmmu_targets_lm32]
-# required by app-emulation/aqemu-0.8.2-r2::gentoo
-# required by @selected
-# required by @world (argument)
->=media-libs/mesa-11.0.6 abi_x86_32
 # required by virtual/libudev-215-r1::gentoo[-systemd]
 # required by sys-apps/util-linux-2.26.2::gentoo[udev]
 # required by app-emulation/qemu-2.5.0-r1::gentoo[-qemu_softmmu_targets_arm,-qemu_softmmu_targets_ppc,-qemu_softmmu_targets_sparc,-qemu_softmmu_targets_alpha,-qemu_softmmu_targets_s390x,-qemu_softmmu_targets_microblazeel,-qemu_softmmu_targets_moxie,-qemu_softmmu_targets_microblaze,-qemu_softmmu_targets_mips64el,-qemu_softmmu_targets_ppc64,-qemu_softmmu_targets_tricore,qemu_softmmu_targets_x86_64,-qemu_softmmu_targets_mips,-qemu_softmmu_targets_ppcemb,-qemu_softmmu_targets_m68k,qemu_softmmu_targets_i386,-qemu_softmmu_targets_cris,-qemu_softmmu_targets_or32,-qemu_softmmu_targets_sparc64,-qemu_softmmu_targets_xtensa,-qemu_softmmu_targets_mips64,-qemu_softmmu_targets_sh4,-qemu_softmmu_targets_xtensaeb,uuid,-qemu_softmmu_targets_sh4eb,-qemu_softmmu_targets_aarch64,-static-softmmu,-qemu_softmmu_targets_unicore32,qemu_softmmu_targets_mipsel,-qemu_softmmu_targets_lm32]
@@ -518,11 +495,6 @@ dev-util/pkgconfig abi_x86_32
 # required by media-sound/pulseaudio-5.0-r7
 # required by media-plugins/alsa-plugins-1.0.28[pulseaudio]
 =dev-libs/json-c-0.11-r1 abi_x86_32
-# required by app-emulation/wine-1.6.2[abi_x86_32,mp3]
-# required by app-emulation/q4wine-1.0-r3
-# required by @selected
-# required by @world (argument)
-=media-sound/mpg123-1.18.1 abi_x86_32
 # required by dev-qt/qtgui-4.8.6-r2[xv]
 # required by dev-qt/qtcore-4.8.6-r1[qt3support]
 # required by dev-qt/qttranslations-4.8.6-r1
@@ -754,11 +726,6 @@ dev-libs/libtasn1 abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=media-libs/lcms-2.6-r1 abi_x86_32
-# required by app-emulation/wine-1.6.2[pulseaudio,abi_x86_32]
-# required by app-emulation/q4wine-1.0-r3
-# required by @selected
-# required by @world (argument)
-=media-sound/pulseaudio-5.0-r7 abi_x86_32
 # required by net-print/cups-2.0.1-r1[dbus]
 # required by x11-libs/gtk+-3.14.9[cups]
 # required by media-sound/pulseaudio-5.0-r7[gtk]
@@ -956,18 +923,6 @@ dev-libs/libtasn1 abi_x86_32
 # required by @selected
 # required by @world (argument)
 >=dev-libs/gmp-6.0.0a abi_x86_32
-# required by net-nds/openldap-2.4.38-r2::gentoo[gnutls,ssl]
-# required by dev-lang/php-5.6.12::gentoo[-ldap-sasl,ldap]
-# required by dev-db/phpmyadmin-4.4.6.1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-libs/libgcrypt-1.6.3-r4 abi_x86_32
-# required by dev-libs/libgcrypt-1.6.3-r4::gentoo
-# required by app-pda/libimobiledevice-1.1.6::gentoo[gnutls]
-# required by app-pda/ideviceinstaller-1.0.1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-libs/libgpg-error-1.19 abi_x86_32
 # required by app-emulation/wine-1.6.2::gentoo[abi_x86_32,mp3]
 # required by app-emulation/q4wine-1.0-r3::gentoo
 # required by @selected
