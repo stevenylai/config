@@ -644,6 +644,18 @@ dev-libs/expat abi_x86_32
 # required by dev-qt/qtcore-4.8.6-r1[qt3support]
 # required by dev-qt/qttranslations-4.8.6-r1
 >=virtual/mysql-5.6-r2 abi_x86_32
+# required by virtual/libmysqlclient-18::gentoo
+# required by dev-db/mysql-connector-c++-1.1.9::gentoo
+# required by app-office/libreoffice-6.0.6.2::gentoo[mysql]
+# required by @selected
+# required by @world (argument)
+>=dev-db/mysql-connector-c-6.1.11-r1 abi_x86_32
+# required by x11-libs/pango-1.42.4::gentoo
+# required by x11-drivers/nvidia-drivers-396.54::gentoo[tools]
+# required by x11-base/xorg-drivers-1.19::gentoo[video_cards_nvidia]
+# required by x11-base/xorg-server-1.19.5-r2::gentoo[xorg]
+# required by x11-drivers/xf86-input-mouse-1.9.3::gentoo
+>=dev-libs/fribidi-0.19.7 abi_x86_32
 # required by net-libs/gnutls-3.3.10-r2
 # required by media-video/libav-9.17[-openssl,ssl]
 # required by kde-base/ffmpegthumbs-4.14.3[libav]
