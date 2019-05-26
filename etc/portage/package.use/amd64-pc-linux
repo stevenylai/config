@@ -26,8 +26,10 @@ net-dns/bind dlz -mysql
 net-fs/cifs-utils upcall ads
 net-fs/samba winbind client
 net-libs/nodejs npm inspector
-net-misc/rdesktop ao
 net-misc/asterisk mysql
+net-misc/freerdp server
+net-misc/rdesktop ao
+net-misc/tigervnc server
 net-print/cups avahi
 sys-fs/squashfs-tools lzma
 www-client/firefox pulseaudio
