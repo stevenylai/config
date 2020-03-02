@@ -32,6 +32,9 @@ net-misc/freerdp server
 net-misc/rdesktop ao
 net-misc/tigervnc server
 net-print/cups avahi
+net-vpn/ipsec-tools nat
+sci-libs/hdf5 -threads
+sci-libs/scikits_learn -python_targets_python2_7
 sys-fs/squashfs-tools lzma
 sys-libs/ncurses -gpm
 www-client/firefox pulseaudio
@@ -121,4 +124,7 @@ sys-libs/zlib static-libs
 # required by @selected
 # required by @world (argument)
 >=x11-base/xcb-proto-1.13 python_targets_python3_5 abi_x86_32
+# required by sci-libs/tensorflow-2.1.0_rc2::gentoo
+# required by sci-visualization/tensorboard-2.1.0-r1::gentoo
+>=sci-libs/keras-preprocessing-1.1.0 -python_targets_python2_7
 

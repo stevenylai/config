@@ -1,3 +1,18 @@
+# required by dev-db/mysql-connector-c-8.0.19::gentoo[ldap]
+# required by dev-qt/qtsql-5.13.2::gentoo[mysql]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=dev-libs/cyrus-sasl-2.1.27-r3 abi_x86_32
+# required by dev-libs/cyrus-sasl-2.1.27-r3::gentoo[gdbm]
+# required by dev-db/mysql-connector-c-8.0.19::gentoo[ldap]
+# required by dev-qt/qtsql-5.13.2::gentoo[mysql]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=sys-libs/gdbm-1.13-r2 abi_x86_32
+# required by sys-libs/pam-1.3.1-r1::gentoo
+# required by sys-apps/util-linux-2.33.2::gentoo[pam]
+# required by sys-fs/e2fsprogs-1.45.5::gentoo
+# required by @system
+# required by @world (argument)
+>=virtual/libcrypt-1 abi_x86_32
 # required by net-dns/libidn2-0.16-r1::gentoo
 # required by net-libs/gnutls-3.5.12::gentoo[idn]
 # required by net-libs/glib-networking-2.50.0::gentoo[ssl]
